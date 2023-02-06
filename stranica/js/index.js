@@ -1,4 +1,4 @@
-let vol1 = "../podatci.csv";
+let vol1 = "https://borna12.github.io/retrogram/stranica/podatci.csv";
 
 let results;
 let filesData = []
