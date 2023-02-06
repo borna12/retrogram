@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="js/papaparse.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma/css/bulma-tooltip.min.css">
+</head>
+
+<body>
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+
+  <div class="container">
+    <img src="LogoRetrogram.jpg" style="display:block; margin:auto; margin-top:20px">
+    <div class="section group">
+
+      <div class="col span_1_of_4">
+        <span>vrsta riječi: </span>
+        <div class="select is-primary">
+        <select id="pos" onchange="myFunction(this)">
+          <option value="" selected></option>
+          <option value="#imenica">imenica</option>
+          <option value="#glagol">glagol</option>
+          <option value="#zamjenica">zamjenica</option>
+          <option value="#brojevi">brojevi</option>
+          <option value="#pridjev">pridjev</option>
+          <!-- <option value="mž">muški i ženski</option>-->
+        </select> </div></div>
+        <div class="col span_1_of_4 select-imenica">
+          <span>vrsta imenice: </span>
+          <div class="select">
+          <select id="nounType"  class="select isprazni">
+            <option value="" selected></option>
+            <option value="#I_vlastita">I_vlastita</option>
+            <option value="#I_opca">I_opca</option>
+          </select></div>
+        </div>
+        <div class="col span_1_of_4  select-zamijenica">
+          <span>vrsta zamjenice: </span>
+          <div class="select">
+          <select id="pronounType" class="select">
+            <option value="" selected></option>
+            <option value="#Z_pokazna">Z_pokazna</option>
+            <option value="#P_opisni">P_opisni</option>
+            <option value="##Z_neodredjena">Z_neodredjena</option>
+            <option value="#Z_odnosna">Z_odnosna</option>
+            <option value="#Z_osobna">Z_osobna</option>
+            <option value="#Z_upitna">Z_upitna</option>
+            <option value="#Z_povratno_posvojna">Z_povratno_posvojna</option>
+            <option value="#Z_povratna">Z_povratna</option>
+            <option value="#Z_povratno_posvojna">Z_povratno_posvojna</option>
+          </select></div>
+        </div>
+        <div class="col span_1_of_4 select-imenica select-zamijenica">
+          <span>rod: </span>
+          <div class="select">
+          <select id="gender" class="select">
+            <option value="" selected></option>
+            <option value="#muski">muški</option>
+            <option value="#zenski">ženski</option>
+            <option value="#srednji">srednji</option>
+            <option value="#muski #zenski">muški/ženski</option>
+          </select>
+        </div></div>
+        <div class="col span_1_of_4 select-imenica select-zamijenica">
+          <span>broj: </span>
+          <div class="select">
+          <select id="number" class="select">
+            <option value="" selected></option>
+            <option value="#jednina">jednina</option>
+            <option value="#mnozina">množina</option>
+            <option value="#jednina-mnozina">jednina i množina</option>
+            <option value="#srednji">srednji</option>
+            <option value="#trece">treče</option>
+            <option value="#drugo">drugo</option>
+          </select>
+        </div></div>
+      </div>
+   
+    <div class="section group">
+      
+      <div class="col span_1_of_4 select-imenica select-zamijenica">
+        <span>padež: </span>
+        <div class="select">
+        <select id="case" class="select">
+          <option value="" selected></option>
+          <option value="#nominativ">nominativ</option>
+          <option value="#genitiv">genitiv</option>
+          <option value="#dativ">dativ</option>
+          <option value="#akuzativ">akuzativ</option>
+          <option value="#ablativ">ablativ</option>
+          <option value="#lokativ">lokativ</option>
+          <option value="#instrumental ">instrumental</option>
+          <option value="#vokativ">vokativ</option>
+        </select>
+      </div></div>
+      <div class="col span_1_of_4 select-imenica">
+        <span>sklonidba: </span>
+        <div class="select">
+        <select id="inflectionType" class="select">
+          <option value="" selected></option>
+          <option value="#I_a_sklonidba">I_a_sklonidba</option>
+          <option value="#I_e_sklonidba">I_e_sklonidba</option>
+          <option value="#I_i_sklonidba">I_i_sklonidba</option>
+        </select>
+      </div></div>
+      <div class="col span_1_of_4 select-imenica">
+        <span>živost: </span>
+        <div class="select">
+        <select id="animacy" class="select">
+          <option value="" selected></option>
+          <option value="#I_zivo">I_zivo</option>
+          <option value="#I_nezivo">I_nezivo</option>
+        </select>
+      </div></div>
+      <div class="col span_1_of_4 select-zamijenica">
+        <span>lice: </span>
+        <div class="select">
+        <select id="person" class="select">
+          <option value="" selected></option>
+          <option value="#prvo">prvo</option>
+          <option value="#drugo">drugo</option>
+          <option value="#trece">treće</option>
+          <option value="#bezlicno">bezlično</option>
+        </select>
+      </div></div>
+      <div class="col span_1_of_4 select-imenica select-zamijenica"><button onclick="trazilica()" class="button is-info" style="display: block;margin: auto">pretraži</button></div>
+    </div>
+    <!--  <button class=gumb id="ocisti_filter" >očisti polja <i class="fas fa-undo"></i></button>-->
+
+    <ul id="search-results" class="block-list is-small is-outlined"></ul>
+  </div>
+  </ul>
+  </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>
