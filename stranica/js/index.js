@@ -60,7 +60,7 @@ setTimeout(() => {
   }
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
-}, 1500);
+}, 2500);
 
 atributi = []
 function myFunction(e) {
