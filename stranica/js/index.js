@@ -17,7 +17,7 @@ function pop_up(e){
   Swal.fire({
     title: $(e).parent().attr("data-Orth"),
     html:
-    "<p class='pos podebljaj'>POS: <span class='vrijednost'>"+$(e).parent().attr("data-Orth")+"</span></p>"+
+    "<p class='pos podebljaj'>POS: <span class='vrijednost'>"+$(e).parent().attr("data-Pos")+"</span></p>"+
     "<p class='VerbType podebljaj'>VerbType: <span class='vrijednost'>"+$(e).parent().attr("data-VerbType")+"</span></p>"+
     "<p class='Participle podebljaj'>Participle: <span class='vrijednost'>"+$(e).parent().attr("data-Participle")+"</span></p>"+
     "<p class='Gender podebljaj'>Gender: <span class='vrijednost'>"+$(e).parent().attr("data-Gender")+"</span></p>"+
