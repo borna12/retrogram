@@ -16,10 +16,11 @@ worksheet.write('J1', 'animacy')
 worksheet.write('K1', 'person')
 worksheet.write('L1', 'adjectiveType')
 worksheet.write('M1', 'numeralType')
-worksheet.write('N1', 'tenseType')
-worksheet.write('O1', 'voice')
-worksheet.write('P1', 'nounType')
-worksheet.write('Q1', 'Fajl')
+worksheet.write('N1', 'tense')
+worksheet.write('O1', 'tenseType')
+worksheet.write('P1', 'voice')
+worksheet.write('Q1', 'nounType')
+worksheet.write('R1', 'Fajl')
 
 fajlovi=['retrogram-appendini-v11-final29.9.2022.xml', 'retrogram-della_bella-v12 final 27.9.2022.xml', 'retrogram-kasic-v11-final 22.9.2022.xml', 'retrogram-lanosovic-v11 final 22.9.2022.xml','retrogram-mikalja-v18-final 22.9.2022.xml','retrogram-szentmartony-v11-final 22.9. 2022(2).xml','retrogram-tadijanovic-v11-final 22.9.2022.xml','retrogram-voltic-v12-final 22.9.2022(6).xml']
 i=2
@@ -93,6 +94,11 @@ for fajl in fajlovi:
         except:
             numeralType=""
         try:
+            tense=form.find("gram", {"type" : "tense"}) #pos['corresp']
+            tense=tense['corresp']
+        except:
+            tense=""
+        try:
             tenseType=form.find("gram", {"type" : "tenseType"}) #pos['corresp']
             tenseType=tenseType['corresp']
         except:
@@ -120,9 +126,10 @@ for fajl in fajlovi:
         worksheet.write('K'+str(i),person)
         worksheet.write('L'+str(i),adjectiveType)
         worksheet.write('M'+str(i),numeralType)
-        worksheet.write('N'+str(i),tenseType)
-        worksheet.write('O'+str(i),voice)
-        worksheet.write('P'+str(i),nounType)
-        worksheet.write('Q'+str(i),fajl)
+        worksheet.write('N'+str(i),tense)
+        worksheet.write('O'+str(i),tenseType)
+        worksheet.write('P'+str(i),voice)
+        worksheet.write('Q'+str(i),nounType)
+        worksheet.write('R'+str(i),fajl)
         i+=1
 workbook.close()
