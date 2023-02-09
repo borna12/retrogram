@@ -1,4 +1,4 @@
-let vol1 = "../podatci.csv";
+let vol1 = "podatci.csv";
 
 let results;
 let filesData = []
