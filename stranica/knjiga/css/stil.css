@@ -1,9 +1,36 @@
-html, body{height: 100%;}
+html, body{height: 100%;margin: 0;padding: 0}
 .container {
     position: relative;
     overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
+    
+  }
+#stranica{border: 1px solid black;}
+#izbornici{padding-top:10px}
+  #myDiv{height: 100%;}
+  #loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
   
   /* Then style the iframe to fit in the container div with full height and width */
@@ -23,7 +50,7 @@ html, body{height: 100%;}
 	padding: 0px;
 	margin: 0px;
 }
-
+#countries{width: 250px!important;}
 /*  COLUMN SETUP  */
 .col {
 	display: block;
