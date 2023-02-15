@@ -27,10 +27,10 @@
         <select id="pos" onchange="myFunction(this)">
           <option value="" selected></option>
           <option value="#imenica">imenica</option>
-          <option value="#glagol">glagol</option>
           <option value="#zamjenica">zamjenica</option>
-          <option value="#brojevi">brojevi</option>
           <option value="#pridjev">pridjev</option>
+          <option value="#brojevi">brojevi</option>
+          <option value="#glagol">glagol</option>
           <!-- <option value="mž">muški i ženski</option>-->
         </select> </div></div>
         <div class="col span_1_of_4 select-imenica">
@@ -103,6 +103,17 @@
           </select>
         </div></div>
         <div class="col span_1_of_4 select-imenica select-zamijenica select-pridjev select-brojevi select-glagol">
+          <span>rod: </span>
+          <div class="select">
+          <select id="gender" class="select">
+            <option value="" selected></option>
+            <option value="#muski">muški</option>
+            <option value="#zenski">ženski</option>
+            <option value="#srednji">srednji</option>
+            <option value="#muski #zenski">muški/ženski</option>
+          </select>
+        </div></div>
+        <div class="col span_1_of_4 select-imenica select-zamijenica select-pridjev select-brojevi select-glagol">
           <span>broj: </span>
           <div class="select">
           <select id="number" class="select">
@@ -113,17 +124,6 @@
             <option value="#srednji">srednji</option>
             <option value="#trece">treče</option>
             <option value="#drugo">drugo</option>
-          </select>
-        </div></div>
-        <div class="col span_1_of_4 select-imenica select-zamijenica select-pridjev select-brojevi select-glagol">
-          <span>rod: </span>
-          <div class="select">
-          <select id="gender" class="select">
-            <option value="" selected></option>
-            <option value="#muski">muški</option>
-            <option value="#zenski">ženski</option>
-            <option value="#srednji">srednji</option>
-            <option value="#muski #zenski">muški/ženski</option>
           </select>
         </div></div>
       <div class="col span_1_of_4 select-imenica select-zamijenica select-pridjev select-brojevi select-glagol">

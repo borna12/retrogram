@@ -14,17 +14,9 @@
 
 <body>
     <!--<select id="id_select2_example" style="width: 200px;" onchange="myFunction(this)">-->
-        <select class="form-control" id="countries" onchange="myFunction(this)" data-placeholder="Odaberite stranicu">   
-             
-          </select>
-		
-	
     <div id="loader"></div>
     <div style="display:none;" id="myDiv" class="animate-bottom">
-        <div id="izbornici" class=" ">
-      
-             
-        </div>
+        <div id="izbornici" class="container is-max-desktop">Odaberi stranicu: <select class="form-control" id="stranice" onchange="myFunction(this)" data-placeholder="Odaberite stranicu"></select> Promijeni gramatiku: <select class="form-control" id="gramatika" data-placeholder="Odaberite gramatiku"><option value="gram1">Gramatika 1</option><option value="gram2" selected>Gramatika 2</option></select></div>
         <div class="section group" style="height: 92vh;">
             <div class="col span_1_of_2" style="height: 92vh;">
                 <div class="container" style="height: 92vh;">
@@ -39,7 +31,6 @@
 </body>
 <script src="js/papaparse.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.js'></script>
 <script src="js/main.js"></script>
 

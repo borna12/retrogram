@@ -24,7 +24,7 @@ function addPoints(data) {
   for (var i = 0; i < podatci.length; i++) {
     //alert(podatci[i].Stranica)
     broj=parseInt(i)+1
-   $("#countries").append(" <option value='"+broj+"' data-name='"+podatci[i].Stranica+"' style='width:250px!important;'>"+podatci[i].Stranica+"</option>")
+   $("#stranice").append(" <option value='"+broj+"' data-name='"+podatci[i].Tekst.toLowerCase()+"' style='width:250px!important;'>"+podatci[i].Stranica+"</option>")
   }
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
@@ -49,35 +49,37 @@ function format(item, state) {
   span.prepend(img);
   return span;
 }
-function matchCustom(params, data) {
-  // If there are no search terms, return all of the data
+function customMatcher(params, data) {
+  // Always return the object if there is nothing to compare
   if ($.trim(params.term) === '') {
-    return data;
+      return data;
   }
-
-  // Do not display the item if there is no 'text' property
-  if (typeof data.text === 'undefined') {
-    return null;
+  
+  // Check if the data occurs
+  if ($(data.element).data('name').toString().toLowerCase().indexOf(params.term) > -1) {
+      return data;
   }
-
-  // `params.term` should be the term that is used for searching
-  // `data.text` is the text that is displayed for the data object
-  if (data.text.indexOf(params.term) > -1) {
-    var modifiedData = $.extend({}, data, true);
-    modifiedData.text += ' (matched)';
-
-    // You can return modified objects from here
-    // This includes matching the `children` how you want in nested data sets
-    return modifiedData;
-  }
-
-  // Return `null` if the term should not be displayed
+  // If it doesn't contain the term, don't return anything
   return null;
 }
 $(document).ready(function() {
-  $("#countries").select2({
+  $("#stranice").select2({
+    templateResult: function(item) {
+      return format(item, false);
+    },matcher: customMatcher,
+    language: {
+      "noResults": function(){
+          return "Nema rezultata za pretraživanje.";
+      }
+  },
+   escapeMarkup: function (markup) {
+       return markup;
+   }
+  });
+  $("#gramatika").select2({
     templateResult: function(item) {
       return format(item, false);
     }
-  });
+  })
+
 });

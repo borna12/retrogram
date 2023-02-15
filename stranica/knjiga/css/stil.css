@@ -50,7 +50,8 @@ html, body{height: 100%;margin: 0;padding: 0}
 	padding: 0px;
 	margin: 0px;
 }
-#countries{width: 250px!important;}
+#stranice{width: 200px!important;}
+#gramatika{width: 200px!important;}
 /*  COLUMN SETUP  */
 .col {
 	display: block;
