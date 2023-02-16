@@ -17,22 +17,22 @@ function pop_up(e){
   Swal.fire({
     title: $(e).parent().attr("data-Orth"),
     html:
-    "<p class='pos podebljaj'>POS: <span class='vrijednost'>"+$(e).parent().attr("data-Orth")+"</span></p>"+
-    "<p class='VerbType podebljaj'>VerbType: <span class='vrijednost'>"+$(e).parent().attr("data-VerbType")+"</span></p>"+
+    "<p class='pos podebljaj'>Vrsta riječi: <span class='vrijednost'>"+$(e).parent().attr("data-Pos")+"</span></p>"+
+    "<p class='VerbType podebljaj'>Vrsta glagola: <span class='vrijednost'>"+$(e).parent().attr("data-VerbType")+"</span></p>"+
+    "<p class='adjectiveType podebljaj'>Vrsta pridjeva: <span class='vrijednost'>"+$(e).parent().attr("data-adjectiveType")+"</span></p>"+
+    "<p class='numeralType podebljaj'>Vrsta brojeva: <span class='vrijednost'>"+$(e).parent().attr("data-numeralType")+"</span></p>"+
+    "<p class='PronounType podebljaj'>Vrsta zamjenice: <span class='vrijednost'>"+$(e).parent().attr("data-PronounType")+"</span></p>"+
+    "<p class='nounType podebljaj'>Vrsta imenice: <span class='vrijednost'>"+$(e).parent().attr("data-nounType")+"</span></p>"+
     "<p class='Participle podebljaj'>Participle: <span class='vrijednost'>"+$(e).parent().attr("data-Participle")+"</span></p>"+
-    "<p class='Gender podebljaj'>Gender: <span class='vrijednost'>"+$(e).parent().attr("data-Gender")+"</span></p>"+
-    "<p class='PronounType podebljaj'>PronounType: <span class='vrijednost'>"+$(e).parent().attr("data-PronounType")+"</span></p>"+
-    "<p class='Number podebljaj'>Number: <span class='vrijednost'>"+$(e).parent().attr("data-Number")+"</span></p>"+
-    "<p class='Case podebljaj'>Case: <span class='vrijednost'>"+$(e).parent().attr("data-Case")+"</span></p>"+
-    "<p class='inflectionType podebljaj'>inflectionType: <span class='vrijednost'>"+$(e).parent().attr("data-inflectionType")+"</span></p>"+
-    "<p class='animacy podebljaj'>animacy: <span class='vrijednost'>"+$(e).parent().attr("data-animacy")+"</span></p>"+
-    "<p class='tense podebljaj'>tense: <span class='vrijednost'>"+$(e).parent().attr("data-tense")+"</span></p>"+
-    "<p class='person podebljaj'>person: <span class='vrijednost'>"+$(e).parent().attr("data-person")+"</span></p>"+
-    "<p class='adjectiveType podebljaj'>adjectiveType: <span class='vrijednost'>"+$(e).parent().attr("data-adjectiveType")+"</span></p>"+
-    "<p class='numeralType podebljaj'>numeralType: <span class='vrijednost'>"+$(e).parent().attr("data-numeralType")+"</span></p>"+
-    "<p class='tenseType podebljaj'>tenseType: <span class='vrijednost'>"+$(e).parent().attr("data-tenseType")+"</span></p>"+
-    "<p class='voice podebljaj'>voice: <span class='vrijednost'>"+$(e).parent().attr("data-voice")+"</span></p>"+
-    "<p class='nounType podebljaj'>nounType: <span class='vrijednost'>"+$(e).parent().attr("data-nounType")+"</span></p>"+
+    "<p class='Gender podebljaj'>Spol: <span class='vrijednost'>"+$(e).parent().attr("data-Gender")+"</span></p>"+
+    "<p class='Number podebljaj'>Broj: <span class='vrijednost'>"+$(e).parent().attr("data-Number")+"</span></p>"+
+    "<p class='Case podebljaj'>Padež: <span class='vrijednost'>"+$(e).parent().attr("data-Case")+"</span></p>"+
+    "<p class='inflectionType podebljaj'>Sklonidba: <span class='vrijednost'>"+$(e).parent().attr("data-inflectionType")+"</span></p>"+
+    "<p class='animacy podebljaj'>Živost: <span class='vrijednost'>"+$(e).parent().attr("data-animacy")+"</span></p>"+
+    "<p class='person podebljaj'>Lice: <span class='vrijednost'>"+$(e).parent().attr("data-person")+"</span></p>"+
+    "<p class='tense podebljaj'>Vrijeme: <span class='vrijednost'>"+$(e).parent().attr("data-tense")+"</span></p>"+
+    "<p class='tenseType podebljaj'>Glagolsko vrijeme: <span class='vrijednost'>"+$(e).parent().attr("data-tenseType")+"</span></p>"+
+    "<p class='voice podebljaj'>Glagolsko stanje: <span class='vrijednost'>"+$(e).parent().attr("data-voice")+"</span></p>"+
     "<p class='Fajl podebljaj'>Gramatika: <span class='vrijednost'>"+$(e).parent().attr("data-Fajl")+"</span></p>",
     showCloseButton: true,
     focusConfirm: false,
@@ -91,8 +91,7 @@ function trazilica() {
     lista_svega = lista_svega.filter(function (e) { return e === 0 || e });
    
     if (checker(lista_svega, atributi)) {
-      resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
-
+      resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-tense='"+obj.tense+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
     }
    
   }
