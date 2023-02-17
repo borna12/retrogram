@@ -10,7 +10,7 @@ function myFunction(e){
 
 function promijeni(e){
   //let ind = podatci.map(item => item.Stranica).indexOf(e.value);
-  window.open(e.value+".html");
+  window.open(e.value+".html","_self");
 }
 
 if(adresa.at(-1)=="gram1.html"){
