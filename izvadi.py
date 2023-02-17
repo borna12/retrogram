@@ -29,6 +29,7 @@ for fajl in fajlovi:
         file = f.read()
     # 'xml' is the parser used. For html files, which BeautifulSoup is typically used for, it would be 'html.parser'.
     soup = BeautifulSoup(file, 'xml')
+
     forms = soup.findAll("form", {"type" : "inflectedForm"})
     for form in forms:
         orth=form.find('orth')
