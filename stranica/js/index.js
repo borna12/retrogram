@@ -32,6 +32,9 @@ function pop_up(e){
     "<p class='person podebljaj'>Lice: <span class='vrijednost'>"+$(e).parent().attr("data-person")+"</span></p>"+
     "<p class='tense podebljaj'>Vrijeme: <span class='vrijednost'>"+$(e).parent().attr("data-tense")+"</span></p>"+
     "<p class='tenseType podebljaj'>Glagolsko vrijeme: <span class='vrijednost'>"+$(e).parent().attr("data-tenseType")+"</span></p>"+
+    "<p class='mood podebljaj'>Glagolski način: <span class='vrijednost'>"+$(e).parent().attr("data-mood")+"</span></p>"+
+    "<p class='infinitive podebljaj'>Infinitiv: <span class='vrijednost'>"+$(e).parent().attr("data-infinitive")+"</span></p>"+
+    "<p class='verbialAdverb podebljaj'>Glagolski prilog: <span class='vrijednost'>"+$(e).parent().attr("data-verbialAdverb")+"</span></p>"+
     "<p class='voice podebljaj'>Glagolsko stanje: <span class='vrijednost'>"+$(e).parent().attr("data-voice")+"</span></p>"+
     "<p class='Fajl podebljaj'>Gramatika: <span class='vrijednost'>"+$(e).parent().attr("data-Fajl")+"</span></p>",
     showCloseButton: true,
@@ -73,7 +76,6 @@ function myFunction(e) {
   else if (e.value == "#pridjev") { $(".select-pridjev").show() }
   else if (e.value == "#brojevi") { $(".select-brojevi").show() }
   else if (e.value == "#glagol") { $(".select-glagol").show() }
-
   else { $("div[class*='select-']").hide(); }
 }
 function trazilica() {
@@ -87,11 +89,11 @@ function trazilica() {
  
   for (let i = 0; i < podatci.length; i++) {
     var obj = podatci[i];
-    lista_svega = [obj.Orth, obj.Pos, obj.VerbType, obj.Participle, obj.Gender, obj.PronounType, obj.Number, obj.Case, obj.inflectionType, obj.animacy, obj.tense,obj.person, obj.adjectiveType, obj.numeralType, obj.tenseType, obj.voice, obj.nounType, obj.Fajl]
+    lista_svega = [obj.Orth, obj.Pos, obj.VerbType, obj.Participle, obj.Gender, obj.PronounType, obj.Number, obj.Case, obj.inflectionType, obj.animacy, obj.tense,obj.person, obj.adjectiveType, obj.numeralType, obj.tenseType, obj.voice, obj.nounType, obj.mood, obj.infinitive, obj.verbialAdverb, obj.Fajl]
     lista_svega = lista_svega.filter(function (e) { return e === 0 || e });
    
     if (checker(lista_svega, atributi)) {
-      resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-tense='"+obj.tense+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl.replace(/<em>/g, "").replace(/<\/em>/g, "")+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
+      resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-tense='"+obj.tense+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-mood='"+obj.mood+"' data-infinitive='"+obj.infinitive+"' data-verbialAdverb='"+obj.verbialAdverb+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl.replace(/<em>/g, "").replace(/<\/em>/g, "")+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
     }
    
   }
