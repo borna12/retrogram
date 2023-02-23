@@ -20,7 +20,10 @@ worksheet.write('N1', 'tense')
 worksheet.write('O1', 'tenseType')
 worksheet.write('P1', 'voice')
 worksheet.write('Q1', 'nounType')
-worksheet.write('R1', 'Fajl')
+worksheet.write('R1', 'mood')
+worksheet.write('S1', 'infinitive')
+worksheet.write('T1', 'verbialAdverb')
+worksheet.write('U1', 'Fajl')
 
 fajlovi=['retrogram-appendini-v11-final29.9.2022.xml', 'retrogram-della_bella-v12 final 27.9.2022.xml', 'retrogram-kasic-v11-final 22.9.2022.xml', 'retrogram-lanosovic-v11 final 22.9.2022.xml','retrogram-mikalja-v18-final 22.9.2022.xml','retrogram-szentmartony-v11-final 22.9. 2022(2).xml','retrogram-tadijanovic-v11-final 22.9.2022.xml','retrogram-voltic-v12-final 22.9.2022(6).xml']
 i=2
@@ -112,6 +115,21 @@ for fajl in fajlovi:
             nounType=nounType['corresp']
         except:
             nounType=""
+        try:
+            infinitive=form.find("gram", {"type" : "infinitive"}) #pos['corresp']
+            infinitive=infinitive['corresp']
+        except:
+            infinitive=""
+        try:
+            mood=form.find("gram", {"type" : "mood"}) #pos['corresp']
+            mood=mood['corresp']
+        except:
+            mood=""
+        try:
+            verbialAdverb=form.find("gram", {"type" : "verbialAdverb"}) #pos['corresp']
+            verbialAdverb=verbialAdverb['corresp']
+        except:
+            verbialAdverb=""
         worksheet.write('A'+str(i),orth.text.strip())
         worksheet.write('B'+str(i),pos)
         worksheet.write('C'+str(i),verbType)
@@ -129,6 +147,9 @@ for fajl in fajlovi:
         worksheet.write('O'+str(i),tenseType)
         worksheet.write('P'+str(i),voice)
         worksheet.write('Q'+str(i),nounType)
-        worksheet.write('R'+str(i),fajl)
+        worksheet.write('R'+str(i),mood)
+        worksheet.write('S'+str(i),infinitive)
+        worksheet.write('T'+str(i),verbialAdverb)
+        worksheet.write('U'+str(i),fajl)
         i+=1
 workbook.close()
