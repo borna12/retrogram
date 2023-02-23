@@ -78,6 +78,9 @@ function myFunction(e) {
   else { $("div[class*='select-']").hide(); }
 }
 function trazilica() {
+  lastDisplayedPost = 0;
+  sakri = 0
+  
   resultList.innerHTML = ""
   atributi = []
   var options = $('select');
@@ -85,19 +88,33 @@ function trazilica() {
     if (option.value != "")
       atributi.push(option.value);
   });
-  document.getElementById("loader").style.display = "block";
+  function load(){
+    brojka = 0
+    document.getElementById("loader").style.display = "block";
   setTimeout(function() {
-  for (let i = 0; i < podatci.length; i++) {
+  for (let i = lastDisplayedPost; i < podatci.length; i++) {
+    sakri++
     var obj = podatci[i];
     lista_svega = [obj.Orth, obj.Pos, obj.VerbType, obj.Participle, obj.Gender, obj.PronounType, obj.Number, obj.Case, obj.inflectionType, obj.animacy, obj.tense,obj.person, obj.adjectiveType, obj.numeralType, obj.tenseType, obj.voice, obj.nounType, obj.mood, obj.infinitive, obj.verbialAdverb, obj.Fajl]
     lista_svega = lista_svega.filter(function (e) { return e === 0 || e });
-   
     if (checker(lista_svega, atributi)) {
       resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-tense='"+obj.tense+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-mood='"+obj.mood+"' data-infinitive='"+obj.infinitive+"' data-verbialAdverb='"+obj.verbialAdverb+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl.replace(/<em>/g, "").replace(/<\/em>/g, "")+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
+      brojka++
     }
-   
+    lastDisplayedPost = sakri;
+    if (brojka == 300) { break }
+
+    if (lastDisplayedPost >= 300) {$("#read_more").show();}
+    if (sakri >= podatci.length) { $("#read_more").hide(); }
+    
   }
   if(resultList.innerHTML==""){resultList.innerHTML="Nema rezultata za zadanja polja pretraživanja."}
   document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";})
+  document.getElementById("myDiv").style.display = "block";})}
+  load()
+
+  $("#read_more").click(function(){
+    load()
+    return;
+  })
 }
