@@ -9,6 +9,7 @@
   <script src="js/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <script src="js/papaparse.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
   <link rel="stylesheet" href="css/bulma/css/bulma.min.css">
   <link rel="stylesheet" href="css/bulma/css/bulma-tooltip.min.css">
   <link rel="stylesheet" href="css/sweetalert2.min.css">
@@ -40,17 +41,17 @@
           <div class="col span_1_of_4">
             <span>vrsta imenice: </span>
             <div class="select">
-              <select id="nounType" class="select isprazni">
+              <select id="nounType" class="select isprazni"> 
                 <option value="" selected></option>
                 <option value="#I_vlastita">vlastita</option>
-                <option value="#I_opca">opča</option>
+                <option value="#I_opca">opća</option>
               </select>
             </div>
           </div>
           <div class="col span_1_of_4">
             <span>rod: </span>
             <div class="select">
-              <select id="gender" class="select">
+              <select id="gender" class="select"> 
                 <option value="" selected></option>
                 <option value="#muski">muški</option>
                 <option value="#zenski">ženski</option>
@@ -61,7 +62,7 @@
           <div class="col span_1_of_4">
             <span>broj: </span>
             <div class="select">
-              <select id="number" class="select">
+              <select id="number" class="select"> 
                 <option value="" selected></option>
                 <option value="#jednina">jednina</option>
                 <option value="#mnozina">množina</option>
@@ -88,7 +89,7 @@
             <span>sklonidba: </span>
             <div class="select">
               <select id="inflectionType" class="select">
-                <option value="" selected></option>
+                <option value="" selected></option> 
                 <option value="#I_a_sklonidba"><em>a</em>-sklonidba</option>
                 <option value="#I_e_sklonidba"><em>e</em>-sklonidba</option>
                 <option value="#I_i_sklonidba"><em>i</em>-sklonidba</option>
@@ -98,7 +99,7 @@
           <div class="col span_1_of_4">
             <span>živost: </span>
             <div class="select">
-              <select id="animacy" class="select">
+              <select id="animacy" class="select"> 
                 <option value="" selected></option>
                 <option value="#I_zivo">živo</option>
                 <option value="#I_nezivo">neživo</option>
@@ -112,7 +113,7 @@
             <div class="select">
               <select id="pronounType" class="select">
                 <option value="" selected></option>
-                <option value="#Z_osobna">osobna</option>
+                <option value="#Z_osobna">osobna</option>    
                 <option value="#Z_pokazna">pokazna</option>
                 <option value="#Z_neodredjena">neodređena</option>
                 <option value="#Z_posvojna">posvojna</option>
@@ -281,7 +282,7 @@
               <select id="VerbType" class="select">
                 <option value="" selected></option>
                 <option value="#G_glavni">glavni</option>
-                <option value="#G_pomocni">pomočni</option>
+                <option value="#G_pomocni">pomoćni</option>
               </select>
             </div>
           </div>
@@ -290,7 +291,7 @@
             <div class="select">
               <select id="tense" class="select">
                 <option value="" selected></option>
-                <option value="#proslo">prošlo</option>
+                <option value="#proslo">prošlo</option> 
                 <option value="#sadasnje">sadašnje</option>
                 <option value="#buduce">buduće</option>
               </select>
@@ -301,7 +302,7 @@
             <div class="select">
               <select id="tenseType" class="select">
                 <option value="" selected></option>
-                <option value="#G_prezent">prezent</option>
+                <option value="#G_prezent">prezent</option> 
                 <option value="#G_perfekt">perfekt</option>
                 <option value="#G_aorist">aorist</option>
                 <option value="#G_imperfekt">imperfekt</option>
@@ -349,7 +350,7 @@
             <div class="select">
               <select id="mood" class="select">
                 <option value="" selected></option>
-                <option value="#imperativ">imperativ</option>
+                <option value="#imperativ">imperativ</option> 
                 <option value="#kondicional_I">kondicional I.</option>
                 <option value="#kondicional_II">kondicional II.</option>
               </select>
@@ -358,9 +359,9 @@
           <div class="col span_1_of_4">
             <span>infinitiv: </span>
             <div class="select">
-              <select id="infinitiv" class="select">
+              <select id="infinitive" class="select">
                 <option value="" selected></option>
-                <option value="#G_infinitiv">infinitiv</option>
+                <option value="#G_infinitiv">infinitiv</option> 
                 <option value="#G_supin">supin</option>
               </select>
             </div>
@@ -369,7 +370,7 @@
           <div class="col span_1_of_4">
             <span>glagolski prilog: </span>
             <div class="select">
-              <select id="verbialAdverb" class="select">
+              <select id="verbialAdverb" class="select"> 
                 <option value="" selected></option>
                 <option value="#G_prosli">prošli</option>
                 <option value="#G_sadasnji">sadašnji</option>
@@ -380,7 +381,7 @@
           <div class="col span_1_of_4">
             <span>glagolski pridjev: </span>
             <div class="select">
-              <select id="Participle" class="select">
+              <select id="Participle" class="select"> 
                 <option value="" selected></option>
                 <option value="#G_particip">particip</option>
                 <option value="#G_radni">radni</option>
@@ -393,8 +394,8 @@
             <div class="select">
               <select id="voice" class="select">
                 <option value="" selected></option>
-                <option value="#aktiv">aktiv</option>
-                <option value="#mnozina">mnozina</option>
+                <option value="#aktiv">aktiv</option> 
+                <option value="#mnozina">množina</option>
                 <option value="#pasiv">pasiv</option>
               </select>
             </div>
