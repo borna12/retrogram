@@ -19,6 +19,9 @@ if(adresa.at(-1)=="gram1.html"){
 else if(adresa.at(-1)=="gram2.html"){
   vol1 = "podatci2.csv";
 }
+else if(adresa.at(-1)=="gram3.html"){
+  vol1 = "podatci3.csv";
+}
 
 
 
@@ -40,7 +43,7 @@ function addPoints(data) {
   for (var i = 0; i < podatci.length; i++) {
     //alert(podatci[i].Stranica)
     broj=parseInt(i)+1
-   $("#stranice").append(" <option value='"+broj+"' data-name='"+podatci[i].Tekst.toLowerCase()+"' style='width:250px!important;'>"+podatci[i].Stranica+"</option>")
+   $("#stranice").append(" <option value='"+podatci[i].Stranica+"' data-name='"+podatci[i].Tekst.toLowerCase()+"' style='width:250px!important;'>"+podatci[i].Stranica+"</option>")
   }
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";

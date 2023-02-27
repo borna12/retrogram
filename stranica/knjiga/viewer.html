@@ -196,7 +196,7 @@ See https://github.com/adobe-type-tools/cmap-resources
               </button>
             </div>
 
-            <div class="horizontalToolbarSeparator"></div>
+            <div class="horizontalToolbarSeparator" style="display: none;"></div>
 
             <div id="scrollModeButtons" role="radiogroup">
               <button id="scrollPage" class="secondaryToolbarButton" title="Use Page Scrolling" tabindex="62" data-l10n-id="scroll_page" role="radio" aria-checked="false">
@@ -213,7 +213,7 @@ See https://github.com/adobe-type-tools/cmap-resources
               </button>
             </div>
 
-            <div class="horizontalToolbarSeparator"></div>
+            <div class="horizontalToolbarSeparator" style="display: none;"></div>
 
             <div id="spreadModeButtons" role="radiogroup">
               <button id="spreadNone" class="secondaryToolbarButton toggled" title="Do not join page spreads" tabindex="66" data-l10n-id="spread_none" role="radio" aria-checked="true">
@@ -523,5 +523,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
     </script>
+
+    <style>
+
+#toolbarViewerLeft,#viewBookmark,#openFile,#spreadModeButtons,#scrollModeButtons, #firstPage, #lastPage, #secondaryOpenFile, .horizontalToolbarSeparator:nth-child(2) {display: none!important;}
+    </style>
   </body>
 </html>
