@@ -12,18 +12,7 @@ function promijeni(e){
   //let ind = podatci.map(item => item.Stranica).indexOf(e.value);
   window.open(e.value+".html","_self");
 }
-
-if(adresa.at(-1)=="gram1.html"){
-  vol1 = "podatci.csv";
-}
-else if(adresa.at(-1)=="gram2.html"){
-  vol1 = "podatci2.csv";
-}
-else if(adresa.at(-1)=="gram3.html"){
-  vol1 = "podatci3.csv";
-}
-
-
+vol1=adresa.at(-1).replace(".html","")+".csv"
 
 let results;
 let filesData = []
