@@ -626,6 +626,8 @@
      </encodingDesc>
      
       <revisionDesc>
+         <change when="2023-02-20" who="#pbago">završena inačica v13 - ispravak oznaka za paradigme</change>
+         <change when="2022-12-21" who="#pbago">završena inačica v12</change>
          <change when="2022-09-01" who="#speric">pregledana v11</change>
          <change when="2022-08-29" who="#mhorvat">redaktura v11</change>
          <change when="2022-05-20" who="#bstebih">dovršeno označivanje (v11)</change>
@@ -739,7 +741,7 @@
             Primjer označenog izraza s jednim terminom iz zaglavlja:
             <term corresp="#imenice">imenica</term>
             Primjer označenog izraza s dva termina iz zaglavlja:
-            <term corresp="#imenice #pridjevi">imena</term>
+            <term corresp="#imenica #pridjev">imena</term>
          -->
          <!-- 24.01.2022. PB:
             Prilikom označavanja situacija kao što su "ime posobito ili samostavno", potrebno je sve označiti kao jedan termin.
@@ -857,7 +859,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="infinitive" corresp="G_supin"/>
+                  <gram type="infinitive" corresp="#G_supin"/>
                </gramGrp>
             </form>
          -->
@@ -2855,7 +2857,7 @@
                <orth>dobrum</orth>
                <gramGrp>
                   <gram type="pos" corresp="#pridjev"/>
-                  <gram type="definiteness" corresp="#odredjeni"/>
+                  <gram type="definiteness" corresp="#P_odredjeni"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#instrumental"/>
@@ -2865,7 +2867,7 @@
                <orth>dobrem</orth>
                <gramGrp>
                   <gram type="pos" corresp="#pridjev"/>
-                  <gram type="definiteness" corresp="#odredjeni"/>
+                  <gram type="definiteness" corresp="#P_odredjeni"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#instrumental"/>
@@ -2875,7 +2877,7 @@
                <orth>dobrim</orth>
                <gramGrp>
                   <gram type="pos" corresp="#pridjev"/>
-                  <gram type="definiteness" corresp="#odredjeni"/>
+                  <gram type="definiteness" corresp="#P_odredjeni"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#instrumental"/>
@@ -4497,7 +4499,7 @@
                <orth>svoj</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_povratno-posvojna"/>
+                  <gram type="pronounType" corresp="#Z_povratno_posvojna"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="case" corresp="#nominativ"/>
                </gramGrp>
@@ -4506,7 +4508,7 @@
                <orth>svoja</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_povratno-posvojna"/>
+                  <gram type="pronounType" corresp="#Z_povratno_posvojna"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="case" corresp="#nominativ"/>
                </gramGrp>
@@ -4515,7 +4517,7 @@
                <orth>svoje</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_povratno-posvojna"/>
+                  <gram type="pronounType" corresp="#Z_povratno_posvojna"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="case" corresp="#nominativ"/>
                </gramGrp>
@@ -5165,7 +5167,7 @@
                <orth>nekoj</orth>
                <gramGrp>
                <gram type="pos" corresp="#zamjenica"/>
-               <gram type="pronounType" corresp="#Z_neodređena"/>
+               <gram type="pronounType" corresp="#Z_neodredjena"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="case" corresp="#nominativ"/>
@@ -5175,7 +5177,7 @@
                <orth>nekoja</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5185,7 +5187,7 @@
                <orth>nekoje</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5197,7 +5199,7 @@
                <orth>neki</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5207,7 +5209,7 @@
                <orth>neka</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5217,7 +5219,7 @@
                <orth>neko</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5229,7 +5231,7 @@
                <orth>nekoteri</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5239,7 +5241,7 @@
                <orth>nekotera</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5249,7 +5251,7 @@
                <orth>nekotero</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5262,7 +5264,7 @@
                <orth>jeden</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5272,7 +5274,7 @@
                <orth>jedna</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5282,7 +5284,7 @@
                <orth>jedno</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5295,7 +5297,7 @@
                <orth>vsaki</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5305,7 +5307,7 @@
                <orth>vsaka</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5315,7 +5317,7 @@
                <orth>vsako</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5328,7 +5330,7 @@
                <orth>kojgod</orth>
                <gramGrp>
                <gram type="pos" corresp="#zamjenica"/>
-               <gram type="pronounType" corresp="#Z_neodređena"/>
+               <gram type="pronounType" corresp="#Z_neodredjena"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="case" corresp="#nominativ"/>
@@ -5338,7 +5340,7 @@
                <orth>kojagod</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5348,7 +5350,7 @@
                <orth>kojegod</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5361,7 +5363,7 @@
                <orth>kigod</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5371,7 +5373,7 @@
                <orth>kagod</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5381,7 +5383,7 @@
                <orth>kogod</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#Z_neodređena"/>
+                  <gram type="pronounType" corresp="#Z_neodredjena"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -5393,7 +5395,7 @@
                   <orth>koterigod</orth>
                   <gramGrp>
                      <gram type="pos" corresp="#zamjenica"/>
-                     <gram type="pronounType" corresp="#Z_neodređena"/>
+                     <gram type="pronounType" corresp="#Z_neodredjena"/>
                      <gram type="gender" corresp="#muski"/>
                      <gram type="number" corresp="#jednina"/>
                      <gram type="case" corresp="#nominativ"/>
@@ -5403,7 +5405,7 @@
                   <orth>koteragod</orth>
                   <gramGrp>
                      <gram type="pos" corresp="#zamjenica"/>
-                     <gram type="pronounType" corresp="#Z_neodređena"/>
+                     <gram type="pronounType" corresp="#Z_neodredjena"/>
                      <gram type="gender" corresp="#zenski"/>
                      <gram type="number" corresp="#jednina"/>
                      <gram type="case" corresp="#nominativ"/>
@@ -5413,7 +5415,7 @@
                   <orth>koterogod</orth>
                   <gramGrp>
                      <gram type="pos" corresp="#zamjenica"/>
-                     <gram type="pronounType" corresp="#Z_neodređena"/>
+                     <gram type="pronounType" corresp="#Z_neodredjena"/>
                      <gram type="gender" corresp="#srednji"/>
                      <gram type="number" corresp="#jednina"/>
                      <gram type="case" corresp="#nominativ"/>
@@ -6301,7 +6303,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             (bez promjene) da ich, du, er, war oder gewesen war.</p>
@@ -6313,7 +6315,7 @@
                <gramGrp>
                      <gram type="pos" corresp="#glagol"/>
                      <gram type="verbType" corresp="#G_pomocni"/>
-                     <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                     <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                   </gramGrp>
             </form>
                   (bez promjene) da ich war oder bin, im sein oder gewesen sein.</p>
@@ -7279,7 +7281,7 @@
                   <gram type="tenseType" corresp="#G_pluskvamperfekt"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="gender" corresp="#srednje"/>
+                  <gram type="gender" corresp="#srednji"/>
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, sie hatten gemalet</p>
@@ -8195,7 +8197,7 @@
                <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form> 
             , im, mit usw. Malen</p>

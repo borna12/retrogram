@@ -634,6 +634,8 @@
       </encodingDesc>
 
       <revisionDesc>
+         <change when="2022-02-20" who="#pbago">završena inačica v13 - ispravak oznaka za paradigme</change>
+         <change when="2022-12-21" who="#pbago">završena inačica v12 - ispravak označenog termina</change>
          <change when="2022-09-29" who="#mhorvat">redaktura v11</change>
          <change when="2022-09-28" who="#speric">redaktura v11</change>
          <change when="2022-08-18" who="#ilovric">završeno označivanje (v11)</change>
@@ -722,14 +724,14 @@
             Termini se obavezno povezuju preko atributa "corresp" s odgovarajućim terminom iz popisa u zaglavlju. Moguće je povezati više od jednog termina s određenim izrazom.
             Nije dozvoljeno označiti izraz kao termin, a ne povezati ga nekim terminom iz zaglavlja.
             Primjer označenog izraza s jednim terminom iz zaglavlja:
-            <term corresp="#imenice">imenica</term>
+            <term corresp="#imenica">imenica</term>
             Primjer označenog izraza s dva termina iz zaglavlja:
-            <term corresp="#imenice #pridjevi">imena</term>
+            <term corresp="#imenica #pridjev">imena</term>
          -->
          <!-- 24.01.2022. PB:
             Prilikom označavanja situacija kao što su "ime posobito ili samostavno", potrebno je sve označiti kao jedan termin.
          -->
-         <p>Ilirski jezik ima sve značajke koje su cijenjene u materinskim jezima. Daje mogućnost za istančanost prozodijskih naglasaka i njihovo skladno i spretno prenošenje što su već primijetili stručnjaci koji se bave mnogim današnjim europskim jezicima, a tako i Arteaga. Nadalje, ilirski jezik razlikuje padeže samo s pomoću fleksije <term corresp="#imenica">imenica</term>, bez pomoći članova, koji su osnovno sredstvo u modernim jezicima,</p>
+         <p>Ilirski jezik ima sve značajke koje su cijenjene u materinskim jezima. Daje mogućnost za istančanost prozodijskih naglasaka i njihovo skladno i spretno prenošenje što su već primijetili stručnjaci koji se bave mnogim današnjim europskim jezicima, a tako i Arteaga. Nadalje, ilirski jezik razlikuje padeže samo s pomoću fleksije imenica, bez pomoći članova, koji su osnovno sredstvo u modernim jezicima,</p>
          <pb n="IX"/>
          <p>te mu se pripisuju svi oni izrazi i fraze koje diskursu omogućuju nijansiranje različitih stupnjeva ljudske srčanosti. Pokazali smo to već u našoj knjizi Notizie istorico-critiche sulle Antichita, Storia e Letteratura dei Ragusei. Ova će gramatika biti dodatan, još izravniji, dokaz svega spomenutoga, jer uspostavlja usporedbu između ilirskoga, grčkoga i latinskoga idioma.</p>
          <p>Među primarnim dijalektima3 ovoga jezika posebnu pozornost privlače ruski, poljski, češki i ilirski. Sjeverni su dijalekti u zadnje vrijeme imali zasluga na književnome području pa su, osnaženi darežljivošću vladara i spremnošću pokrovitelja, izradili dobre rječnike i gramatike. Poseban je spomen zaslužila gramatika poljskoga jezika koju je izdao slavni Otac Konarski i sam pripadnik pijarističke Milosrdne škole, kao i filozofska načela i opća pravila koji bi mogli poslužiti i za svaki drugi slavenski dijalekt. Usprkos žurnim aktivnostima, nismo je uspjeli nabaviti iz tako daleka kraja.</p>
@@ -1677,11 +1679,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="sadasnje"/>
+                  <gram type="tense" corresp="#sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>
             
@@ -1690,7 +1692,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="infinitive" corresp="G_supin"/>
+                  <gram type="infinitive" corresp="#G_supin"/>
                </gramGrp>
             </form>
          -->
@@ -2059,7 +2061,7 @@
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
                <gram type="gender" corresp="#muski"/>
-               <gram type="number" corresp="#množina"/>
+               <gram type="number" corresp="#mnozina"/>
                <gram type="case" corresp="#nominativ"/>
                <gram type="inflectionType" corresp="#I_a_sklonidba"/>
             
@@ -2405,8 +2407,7 @@
          </p>
          <p>Akuzativ</p>
          <p><form type="inflectedForm" xml:lang="hr">
-            <orth>
-               oce</orth>
+            <orth>oce</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2421,8 +2422,7 @@
          </p>
          <p>Vokativ</p>
          <p>o <form type="inflectedForm" xml:lang="hr">
-            <orth>
-               oci</orth>
+            <orth>oci</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2438,8 +2438,7 @@
          <p>Ablativ</p>
          
          <p>s<form type="inflectedForm" xml:lang="hr">
-            <orth>
-               ocima</orth>
+            <orth>ocima</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2455,8 +2454,7 @@
          <p>Ablativ 2.</p>
          
          <p>u<form type="inflectedForm" xml:lang="hr">
-            <orth>
-               ocijeh</orth>
+            <orth>ocijeh</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2469,8 +2467,7 @@
             
          </form> /
             u<form type="inflectedForm" xml:lang="hr">
-            <orth>
-               ocih</orth>
+            <orth>ocih</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2526,8 +2523,7 @@
          <p>Jednina</p>
          <p>Nominativ</p>
          <p>ovi <form type="inflectedForm" xml:lang="hr">
-            <orth>
-               dan</orth>
+            <orth>dan</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2542,8 +2538,7 @@
          </p>
          <p>Genitiv</p>
          <p><form type="inflectedForm" xml:lang="hr">
-            <orth>
-               dana</orth>
+            <orth>dana</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2556,8 +2551,7 @@
             
          </form> /
             <form type="inflectedForm" xml:lang="hr">
-            <orth>
-               dneva</orth>
+            <orth>dneva</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2571,8 +2565,7 @@
          </p>
          <p>Dativ</p>
          <p><form type="inflectedForm" xml:lang="hr">
-            <orth>
-               danu</orth>
+            <orth>danu</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -2587,8 +2580,7 @@
          </form> /
             
             <form type="inflectedForm" xml:lang="hr">
-            <orth>
-               dnevu</orth>
+            <orth>dnevu</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -3071,8 +3063,7 @@
          
          <p>Dativ</p>
          <p><form type="inflectedForm" xml:lang="hr">
-            <orth>ljudim
-            </orth>
+            <orth>ljudim</orth>
             <gramGrp>
                <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
@@ -10107,7 +10098,7 @@
                   <gram type="pos" corresp="#zamjenica"/>
                   <gram type="pronounType" corresp="#Z_povratno_posvojna"/>
                   <gram type="gender" corresp="#srednji"/>
-                  <gram type="number" corresp="#množina"/>
+                  <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#dativ"/>
                </gramGrp>
                
@@ -17883,7 +17874,7 @@
                <gram type="pos" corresp="#zamjenica"/>
                <gram type="pronounType" corresp="#Z_upitna"/>
             
-               <gram type="gender" corresp="zenski"/>
+               <gram type="gender" corresp="#zenski"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="case" corresp="#instrumental"/>
             </gramGrp>
@@ -20512,7 +20503,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
                   <gram type="pronounType" corresp="#Z_neodredjena"/>
-                  <gram type="gender" corresp="#zanski"/>
+                  <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#instrumental"/>
                </gramGrp>
@@ -20522,7 +20513,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#pridjev"/>
                   <gram type="adjectiveType" corresp="#P_opisni"/>
-                  <gram type="gender" corresp="#zanski"/>
+                  <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#instrumental"/>
                </gramGrp>
@@ -24129,7 +24120,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -24142,7 +24133,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="tenseType" corresp="#futur_II"/>
+                  <gram type="tenseType" corresp="#G_futur_II"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -24155,7 +24146,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -24168,7 +24159,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -24182,7 +24173,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -24195,7 +24186,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -24208,7 +24199,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25372,7 +25363,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25384,7 +25375,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25397,7 +25388,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25409,7 +25400,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25422,7 +25413,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25434,7 +25425,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25448,7 +25439,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25460,7 +25451,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25473,7 +25464,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25486,7 +25477,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25500,7 +25491,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25513,7 +25504,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -25554,7 +25545,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form></p>
          <p>ili <form type="inflectedForm" xml:lang="hr">
@@ -25562,7 +25553,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="verbialAdverb" corresp="#G_sadašnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form></p>
          <p>Perfekt i pluskvamperfekt</p>
@@ -25571,7 +25562,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="verbialAdverb" corresp="#G_prosli"/>
+               <gram type="verbalAdverb" corresp="#G_prosli"/>
             </gramGrp>
          </form></p>
          <p>Particip prezenta i imperfekta</p>
@@ -26902,7 +26893,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -26915,7 +26906,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="tenseType" corresp="#futur_II"/>
+                  <gram type="tenseType" corresp="#G_futur_II"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -26928,7 +26919,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -26940,7 +26931,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -26953,7 +26944,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -26965,7 +26956,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -26979,7 +26970,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -26992,7 +26983,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -27005,7 +26996,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -27018,7 +27009,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -27031,7 +27022,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -27044,7 +27035,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -27077,7 +27068,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form></p>
          <p>Perfekt i pluskvamperfekt</p>
@@ -28046,7 +28037,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28059,7 +28050,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="tenseType" corresp="#futur_II"/>
+                  <gram type="tenseType" corresp="#G_futur_II"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -28073,7 +28064,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28085,7 +28076,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28098,7 +28089,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28110,7 +28101,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28124,7 +28115,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28137,7 +28128,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28150,7 +28141,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28163,7 +28154,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28176,7 +28167,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28189,7 +28180,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -28987,7 +28978,7 @@
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="mood" corresp="#imperativ"/>
                <gram type="person" corresp="#prvo"/>
-               <gram type="number" corresp="#množina"/>
+               <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
             </gramGrp>
          </form> mi</p>
@@ -28998,7 +28989,7 @@
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="mood" corresp="#imperativ"/>
                <gram type="person" corresp="#drugo"/>
-               <gram type="number" corresp="#množina"/>
+               <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#aktiv"/>
             </gramGrp>
          </form>
@@ -29257,7 +29248,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form>
             </p>
@@ -30333,7 +30324,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#pasiv"/>
@@ -30346,7 +30337,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#pasiv"/>
@@ -30359,7 +30350,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#pasiv"/>
@@ -30373,7 +30364,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#pasiv"/>
@@ -30386,7 +30377,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#pasiv"/>
@@ -30399,7 +30390,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#mnozina"/>
                <gram type="voice" corresp="#pasiv"/>
@@ -30507,7 +30498,7 @@
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#sadasnje"/>
                <gram type="tenseType" corresp="#G_prezent"/>
-               <gram type="person" corresp="#treće"/>
+               <gram type="person" corresp="#trece"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
             </gramGrp>
@@ -30598,7 +30589,7 @@
             <orth>ne hotio sam</orth>
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_pomoci"/>
+               <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#proslo"/>
                <gram type="tenseType" corresp="#G_perfekt"/>
                <gram type="person" corresp="#prvo"/>
@@ -30612,7 +30603,7 @@
             <orth>ne htio sam</orth>
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_pomoci"/>
+               <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#proslo"/>
                <gram type="tenseType" corresp="#G_perfekt"/>
                <gram type="person" corresp="#prvo"/>
@@ -30625,7 +30616,7 @@
             <orth>nijesam hotio</orth>
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_pomoci"/>
+               <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#proslo"/>
                <gram type="tenseType" corresp="#G_perfekt"/>
                <gram type="person" corresp="#prvo"/>
@@ -30638,7 +30629,7 @@
             <orth>ne htio si</orth>
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_pomoci"/>
+               <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#proslo"/>
                <gram type="tenseType" corresp="#G_perfekt"/>
                <gram type="person" corresp="#drugo"/>
@@ -30679,7 +30670,7 @@
             <orth>ne bijah htio</orth>
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_pomoci"/>
+               <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#proslo"/>
                <gram type="tenseType" corresp="#G_pluskvamperfekt"/>
                <gram type="person" corresp="#prvo"/>
@@ -30893,7 +30884,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -30906,7 +30897,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="tenseType" corresp="#futur_II"/>
+                  <gram type="tenseType" corresp="#G_futur_II"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -30920,7 +30911,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -30933,7 +30924,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="tenseType" corresp="#futur_II"/>
+                  <gram type="tenseType" corresp="#G_futur_II"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -30964,7 +30955,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form>
             ili <form type="inflectedForm" xml:lang="hr">
@@ -30972,7 +30963,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form></p>
          <p>ili<form type="inflectedForm" xml:lang="hr">
@@ -30980,7 +30971,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form></p>
          <p>Perfekt i pluskvamperfekt</p>
@@ -32106,7 +32097,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -32120,7 +32111,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -32133,7 +32124,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="tenseType" corresp="#futur_II"/>
+                  <gram type="tenseType" corresp="#G_futur_II"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -32147,7 +32138,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -32161,7 +32152,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#drugo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -32189,7 +32180,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_prosli"/>
+               <gram type="verbalAdverb" corresp="#G_prosli"/>
             </gramGrp>
          </form>
             ili<form type="inflectedForm" xml:lang="hr">
@@ -32197,7 +32188,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
             </p>
@@ -33152,7 +33143,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form>
             </p>
@@ -33660,7 +33651,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#aktiv"/>
@@ -33673,7 +33664,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="tenseType" corresp="#futur_II"/>
+                  <gram type="tenseType" corresp="#G_futur_II"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -33697,7 +33688,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form>
             </p>
@@ -33706,7 +33697,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_prosli"/>
+               <gram type="verbalAdverb" corresp="#G_prosli"/>
             </gramGrp>
          </form></p>
          <p>Particip</p>
@@ -33926,7 +33917,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form></p>
          <p>Pluskvamperfekt drugi</p>
@@ -34053,7 +34044,7 @@
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
                <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#futur_II"/>
+               <gram type="tenseType" corresp="#G_futur_II"/>
                <gram type="person" corresp="#bezlicno"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="voice" corresp="#pasiv"/>
@@ -34079,7 +34070,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form></p>
       
@@ -34088,7 +34079,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_prosli"/>
+               <gram type="verbalAdverb" corresp="#G_prosli"/>
                <gram type="person" corresp="#bezlicno"/>
                <gram type="voice" corresp="#pasiv"/>
             </gramGrp>
@@ -34098,7 +34089,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_prosli"/>
+               <gram type="verbalAdverb" corresp="#G_prosli"/>
                <gram type="person" corresp="#bezlicno"/>
                <gram type="voice" corresp="#pasiv"/>
             </gramGrp>

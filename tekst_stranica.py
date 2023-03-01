@@ -1,12 +1,13 @@
 from bs4 import BeautifulSoup
 import xlsxwriter
+import os, glob
 
 workbook = xlsxwriter.Workbook('stranica.xlsx')
 
+adresa="/".join(os.getcwd().split(os.sep))
 
-fajlovi=['retrogram-appendini-v11-final29.9.2022.xml','retrogram-della_bella-v12 final 27.9.2022.xml', 'retrogram-kasic-v11-final 22.9.2022.xml', 'retrogram-lanosovic-v11 final 22.9.2022.xml','retrogram-mikalja-v18-final 22.9.2022.xml','retrogram-szentmartony-v11-final 22.9. 2022(2).xml','retrogram-tadijanovic-v11-final 22.9.2022.xml','retrogram-voltic-v12-final 22.9.2022(6).xml']  
-for fajl in fajlovi:
-    worksheet = workbook.add_worksheet(str(fajl)[:31])
+for fajl in glob.glob(os.path .join(adresa, '*.xml')):
+    worksheet = workbook.add_worksheet(str(fajl.split('\\')[-1])[:31])
     worksheet.write('A1', 'Stranica')
     worksheet.write('B1', 'Tekst')
     with open(fajl, 'r', encoding='utf8') as f:
