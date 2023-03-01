@@ -622,8 +622,6 @@
      </encodingDesc>
      
       <revisionDesc>
-         <change when="2023-02-20" who="#pbago">završena inačica v13 - ispravak oznaka za terminologiju i paradigme</change>
-         <change when="2022-12-21" who="#pbago">završena inačica v12</change>
          <change when="2022-09-05" who="#mhorvat">redaktura (v11)</change>
          <change when="2022-08-31" who="#speric">završeno označivanje i redaktura(v11)</change>
          <change when="2022-04-14" who="#pbago">završena inačica v11 - ažuriranje zaglavlja i ispravak označivanja paradigmi prema dogovoru na 4. radionici</change>
@@ -668,7 +666,7 @@
          <p>koja od dva glasovita sastavi se, zove se dvoglasna (diphtongus). Ima jih šest: ae, au, ei, eu, oe, yi.</p>
          <p>Rič biva od jedne ili dviju slovkā; kano: mens, ratio.</p>
          <p>Od riči načina se govorenje: Labor omnia vincit. I zato zovu se dili govorenja.</p>
-         <p>Dilā govorenja jest osam. <term corresp="#imenica #pridjev">Ime</term> (nomen), <term corresp="#zamjenica">zaime</term> (pronomen), <term corresp="#glagol">rič</term> (verbum), <term corresp="#particip">dioništvo</term> (participium), pridstavak (praepositio), priričak (adverbium), međumetak (interjectio), sastavak (conjunctio).</p>
+         <p>Dilā govorenja jest osam. <term corresp=" #imenica #pridjev">Ime</term> (nomen), <term corresp="#zamjenica">zaime</term> (pronomen), <term corresp="#glagol">rič</term> (verbum), <term corresp="#particip">dioništvo</term> (participium), pridstavak (praepositio), priričak (adverbium), međumetak (interjectio), sastavak (conjunctio).</p>
          <p>Prvi dio govorenja</p>
          <p><term corresp="#imenica #pridjev">Ime </term> (nomen)</p>
          <p><term corresp="#imenica">Ime</term> jest s kojim štogod nazivamo, kano: coelum, nebo; terra, zemlja.</p>
@@ -682,12 +680,12 @@
             Primjer označenog izraza s jednim terminom iz zaglavlja:
             <term corresp="#imenice">imenica</term>
             Primjer označenog izraza s dva termina iz zaglavlja:
-            <term corresp="#imenica #pridjev">imena</term>
+            <term corresp="#imenice #pridjevi">imena</term>
          -->
          <!-- 24.01.2022. PB:
             Prilikom označavanja situacija kao što su "ime posobito ili samostavno", potrebno je sve označiti kao jedan termin.
          -->
-         <p><term corresp="#imenica">Ime posobito ili samostavno</term> (substantivum)jest koje po sebi u govorenju stajati može. Taka jesu sva <term corresp="#I_vlastita">imena vlastita</term>i <term corresp="#I_opca">općinska</term>.</p>
+         <p><term corresp="#imenica">Ime posobito ili samostavno</term> (substantivum)jest koje po sebi u govorenju stajati može. Taka jesu sva <term corresp=" #I_vlastita">imena vlastita</term>i <term corresp="#I_opca">općinska</term>.</p>
          <p><term corresp="#pridjev">Ime pristavljeno ili primitljivo</term> (adjectivum)jest koje po sebi u govorenju stajati ne može, nego <term corresp="#imenica">samostavnima</term> primiče se za </p>
          <pb n="5"/>
          <p>ukazati njiov stvor i narav, nap: magnus, velik; fortis, jak; magnus Alexander, fortis miles.</p>
@@ -866,11 +864,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="#sadasnje"/>
+                  <gram type="tense" corresp="sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
-                  <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>
+                  <gram type="number" corresp="jednina"/>
+                  <gram type="voice" corresp="aktiv"/>
                </gramGrp>
             </form>
             
@@ -879,7 +877,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="infinitive" corresp="#G_supin"/>
+                  <gram type="infinitive" corresp="G_supin"/>
                </gramGrp>
             </form>
          -->
@@ -2395,7 +2393,7 @@
                </gramGrp>
             </form>!	   		O, langen!</p>
          <p>6. A longis;	   			od 
-            <form type="inflectedForm" xml:lang="hr">
+            <form type="inflectedForm"  xml:lang="hr">
                <orth>velikih</orth>
                <gramGrp>
                   <gram type="pos" corresp="#pridjev"/>
@@ -2404,7 +2402,7 @@
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#ablativ"/>
                </gramGrp>
-            </form>, <form type="inflectedForm" xml:lang="hr">
+            </form>, <form type="inflectedForm"  xml:lang="hr">
                <orth>velikih</orth>
                <gramGrp>
                   <gram type="pos" corresp="#pridjev"/>
@@ -2414,7 +2412,7 @@
                   <gram type="case" corresp="#ablativ"/>
                </gramGrp>
             </form>,
-            <form type="inflectedForm" xml:lang="hr">
+            <form type="inflectedForm"  xml:lang="hr">
                <orth>velikih</orth>
                <gramGrp>
                   <gram type="pos" corresp="#pridjev"/>
@@ -2972,7 +2970,7 @@
             </form>von dreyen (*)</p>
          <p>(*) Piše se takojer: u 1. i 4. zweene, zwo, zwey; 2. zweener, zwoer, zweyer; 3. i 6. zweene, zwoen, zweyen.</p>
          <p>	Ostali <term corresp="#B_glavni">ravni brojevi</term> jesu neizvodljivi izvan mille koje u <term corresp="#mnozina">v[ećestavnom] b[roju]</term> izvađa se millia, millium.</p>
-         <p>	<term corresp="#B_redni">Brojevi naredljivi</term> (ordinales) jesu koji zlamenuju red ili uređenje i ovi jesu svi izvodljivi, nap: primus, secundus, ultimus, itd. </p>
+         <p>	<term corresp="#G_redni">Brojevi naredljivi</term> (ordinales) jesu koji zlamenuju red ili uređenje i ovi jesu svi izvodljivi, nap: primus, secundus, ultimus, itd. </p>
          <p>	Brojevi razdiljivi (distributivi) razdiljenje ili razlučenje zlamenuju, i kod razložitelja (oratores) veći samo, a kod pivalaca (poetas) i jedini broj imaju, nap: singuli, bini, terni, quaterni, quini, itd.</p>
          <pb n="29"/>
          <p>Drugi dio govorenja</p>
@@ -2989,7 +2987,7 @@
                <gram type="pronounType" corresp="#Z_osobna"/>
                <gram type="number" corresp="#jednina"/>
                <gram type="case" corresp="#nominativ"/>
-               <gram type="person" corresp="#prvo"/>
+               <gram type="person" corresp="#prvo"></gram>
             </gramGrp>
          </form>, ich			tu, 
             <form type="inflectedForm" xml:lang="hr">
@@ -2999,7 +2997,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, du		</p>
          <p>2. mei, meiner			tui, deiner			sui, seiner, ihrer, seiner</p>
@@ -3011,7 +3009,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#dativ"/>
-                  <gram type="person" corresp="#prvo"/>
+                  <gram type="person" corresp="#prvo"></gram>
                </gramGrp>
             </form>, mir			tibi, 
             <form type="inflectedForm" xml:lang="hr">
@@ -3021,7 +3019,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#dativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, dir			sibi, 
             <form type="inflectedForm" xml:lang="hr">
@@ -3041,7 +3039,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#akuzativ"/>
-                  <gram type="person" corresp="#prvo"/>
+                  <gram type="person" corresp="#prvo"></gram>
                </gramGrp>
             </form>, mich			te, 
             <form type="inflectedForm" xml:lang="hr">
@@ -3051,7 +3049,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#akuzativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, dich		se, 
             <form type="inflectedForm" xml:lang="hr">
@@ -3071,7 +3069,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#vokativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>!  O, du!</p>
          <pb n="30"/>
@@ -3083,7 +3081,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#ablativ"/>
-                  <gram type="person" corresp="#prvo"/>
+                  <gram type="person" corresp="#prvo"></gram>
                </gramGrp>
             </form>, von mir	a te, od 
             <form type="inflectedForm" xml:lang="hr">
@@ -3093,7 +3091,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#ablativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, von dir 	a se, od 
             <form type="inflectedForm" xml:lang="hr">
@@ -3114,7 +3112,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#nominativ"/>
-                  <gram type="person" corresp="#prvo"/>
+                  <gram type="person" corresp="#prvo"></gram>
                </gramGrp>
             </form>, wir			vos, 
             <form type="inflectedForm" xml:lang="hr">
@@ -3124,7 +3122,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#nominativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, ihr	</p>
          <p>2. nostri, v[el] nostrum,		vestri, v[el] vestrorum, 		sui ut supra</p>
@@ -3134,9 +3132,9 @@
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
                   <gram type="pronounType" corresp="#Z_osobna"/>
-                  <gram type="number" corresp="#mnozina"/>
+                  <gram type="number" corresp="#mnnožina"/>
                   <gram type="case" corresp="#genitiv"/>
-                  <gram type="person" corresp="#prvo"/>
+                  <gram type="person" corresp="#prvo"></gram>
                </gramGrp>
             </form>, unser         			
             <form type="inflectedForm" xml:lang="hr">
@@ -3146,7 +3144,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#genitiv"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, euer </p>
          <p>3. nobis, 
@@ -3157,7 +3155,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#dativ"/>
-                  <gram type="person" corresp="#prvo"/>
+                  <gram type="person" corresp="#prvo"></gram>
                </gramGrp>
             </form>, uns			vobis, 
             <form type="inflectedForm" xml:lang="hr">
@@ -3167,7 +3165,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#dativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, euch			sibi</p>
          <p>4. nos, 
@@ -3178,7 +3176,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#akuzativ"/>
-                  <gram type="person" corresp="#prvo"/>
+                  <gram type="person" corresp="#prvo"></gram>
                </gramGrp>
             </form>, uns			vos, 
             <form type="inflectedForm" xml:lang="hr">
@@ -3188,7 +3186,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#akuzativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, euch			se</p>
          <p>5.					O, vos! O, 
@@ -3199,7 +3197,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#vokativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>! O, ihr!</p>
          <p>6. a nobis, od 
@@ -3210,7 +3208,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#ablativ"/>
-                  <gram type="person" corresp="#prvo"/>
+                  <gram type="person" corresp="#prvo"></gram>
                </gramGrp>
             </form>, von uns	a vobis, od 
             <form type="inflectedForm" xml:lang="hr">
@@ -3220,7 +3218,7 @@
                   <gram type="pronounType" corresp="#Z_osobna"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="case" corresp="#ablativ"/>
-                  <gram type="person" corresp="#drugo"/>
+                  <gram type="person" corresp="#drugo"></gram>
                </gramGrp>
             </form>, von euch     	a se ut supra</p>
          <p><term corresp="#zamjenica">Zaime</term> <term corresp="#pridjev">primitljivo</term></p>
@@ -4691,7 +4689,7 @@
          <p><term corresp="#vrijeme">Vrimena</term> (tempora), koja <term corresp="#glagol">rič</term> prikazuje, brojimo pet: <term corresp="#G_prezent">sadanje</term> (tempus praesens), <term corresp="#G_imperfekt">polprošasto</term> </p>
          <pb n="38"/>
          <p>(imperfectum), <term corresp="#G_perfekt">prošasto</term> (praeteritum perfectum), <term corresp="#G_pluskvamperfekt">ciloprošasto</term> (praeteritum plusquamperfectum) i <term corresp="#G_futur_I #G_futur_II">došasto</term> (futurum).</p>
-         <p><term corresp="#glagol">Riči</term> imaju <term corresp="#lice">sobstva</term>: ego, ja, ich, <term corresp="#prvo">prvo</term>; tu, ti, du, <term corresp="#drugo">drugo</term>; ille, on, er, <term corresp="#trece">treće</term>; misto poslidnjeg može i koje drugo ime stajati. Dva u njih jesu <term corresp="#broj">broja</term>, kano i kod <term corresp="#imenica #pridjev">imena</term>, <term corresp="#jednina">jedini broj</term> i <term corresp="#mnozina">veći</term>.</p>
+         <p><term corresp="#glagol">Riči</term> imaju <term corresp="#lice">sobstva</term>: ego, ja, ich, <term corresp="#prvo">prvo</term>; tu, ti, du, <term corresp="#drugo">drugo</term>; ille, on, er, <term corresp="#trece">treće</term>; misto poslidnjeg može i koje drugo ime stajati. Dva u njih jesu <term corresp="#broj">broja</term>, kano i kod <term corresp="#imenice #pridjevi">imena</term>, <term corresp="#jednina">jedini broj</term> i <term corresp="#mnozina">veći</term>.</p>
          <p><term corresp="#glagol">Rič</term> može se na različite načine pregibati. Prvi <term corresp="#nacin">način</term> jest ukazujući (indicativus) kada stvar samo sebično prikazujemo. 2. <term corresp="#nacin">Zapovidajući</term> (imperativus), s kojim zapovidamo da štogod učini se. 3. Želeći i vežući (optativus et conjunctivus) jednako izalaze i potribuju se za onima ričma koje zlamenjuju kakvugod volju, želju, zaktivanje, itd., ili kada govorenje, jedno s drugim ili naprid idućim ili slidećim sveže se, nap: Ja virujem da ti učiti oćeš. Ja bi bio pisao da … itd. 4. <term corresp="#G_infinitiv">Nesvršeni</term> (infinitivus) kada rič ni <term corresp="#lice">sobstvo</term> koje ni <term corresp="#broj">broj</term> koji ima i ukazuje kako stvar dovrši se ili učini se.</p>
          <p><term corresp="#glagol">Rič</term> jest od četiri vrsti: <term corresp="#aktiv">čineća</term> (activum), <term corresp="#pasiv">trpeća</term> (passivum) srednja (neutrum), ostavljajuća (deponens).</p>
          <p>Svaka <term corresp="#glagol">rič</term> izvađa se po ozgor zabiližitima <term corresp="#vrijeme">vrimenih</term>, <term corresp="#lice">sobstvih</term>, <term corresp="#broj">brojevih</term> i <term corresp="#nacin">načinih</term> koje vlastitosti riči (proprietates verborum) nazivamo. Njiovo[!] pako izvođenje, za različnost <term corresp="#imenica #pridjev">imena</term>, <term corresp="#sprezanje">pregibanje</term> imenujemo.</p>
@@ -4804,7 +4802,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="tense" corresp="#proslo"/>
+                  <gram type="tense" corresp="proslo"/>
                   <gram type="tenseType" corresp="#G_imperfekt"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#jednina"/>
@@ -5018,7 +5016,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="tense" corresp="#buduce"/>
+                  <gram type="tense" corresp="buduce"/>
                   <gram type="tenseType" corresp="#G_futur_I"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
@@ -5086,7 +5084,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>; wir werden, ihr werdet, sie werden seyn.</p>
-         <p><term corresp="#imperativ">Zapovidajućeg načina</term> <term corresp="#G_prezent">sadanje vrime</term></p>
+         <p><term corresp="#imperativ">Zapovidajućeg načina</term> <term corresp="#prezent">sadanje vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: es, v[el] sis tu, sit ille; 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budi</orth>
@@ -5262,7 +5260,7 @@
          <p><term corresp="#G_imperfekt">Polproš[asto]</term>: Ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten.</p>
          <p><term corresp="#G_perfekt">Proš[asto]</term>: Ich habe, du hast, er hat, wir habe, ihr habet, sie haben gehabt.</p>
          <p><term corresp="#G_pluskvamperfekt">Ciloproš[asto]</term>: Ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten gehabt.</p>
-         <p><term corresp="#G_futur_I #G_futur_II">Doš[asto]</term>: Ich werde, du werdest, er wird, wir werden, ihr werdet, sie werden haben.</p>
+         <p><term corresp="#G_futur I #G_futur II">Doš[asto]</term>: Ich werde, du werdest, er wird, wir werden, ihr werdet, sie werden haben.</p>
          <pb n="43"/>
          <p><term corresp="#imperativ">Zapovidajućeg načina</term></p>
          <p><term corresp="#G_prezent">Sad[anje]</term>: habe du, haber er, haben wir ili lassset uns haben, habet ihr, haben sie.</p>
@@ -5272,12 +5270,12 @@
          <p><term corresp="#G_imperfekt">Polp[rošasto]</term>: ich hätte, du hättest, er hätte, wir hätten, ihr hättet, sie hätten.</p>
          <p><term corresp="#G_perfekt">Proš[asto]</term>: Ich habe, du habest, er habe, wir haben, ih habet, sie haben gehabt.</p>
          <p><term corresp="#G_pluskvamperfekt">Cilop[rošasto]</term>: ich hätte, du hättest, er hätte, wir hätten, ihr hättet, sie hätten gehabt.</p>
-         <p><term corresp="#G_futur_I #G_futur_II">Doš[asto]</term>: ich werde, du wedest, er werde, wir werden, ihr werdet, sie werden haben. </p>
+         <p><term corresp="#G_futur I #G_futur II">Doš[asto]</term>: ich werde, du wedest, er werde, wir werden, ihr werdet, sie werden haben. </p>
          <p><term corresp="#G_infinitiv">Nesvršenog načina</term> <term corresp="#G_prezent">sadanje vrime</term></p>
          <p>zu haben</p>
          <p><term corresp="#G_perfekt">Prošasto vrime</term></p>
          <p>Gehabt haben</p>
-         <p><term corresp="#G_futur_I #G_futur_II">Došasto vrime</term></p>
+         <p><term corresp="#G_futur_I #G_futur_II"></term>Došasto vrime</p>
          <p>haben werden</p>
          <p><term corresp="#G_particip">Dioništvo</term> <term corresp="#G_prezent">sadašnjeg vrimena</term></p>
          <p>habend</p>
@@ -5825,7 +5823,7 @@
          <p><term corresp="#G_perfekt">Prošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: amaverim, -eris, -erit; ja ljubio sam, ti ljubio si, on ljubio je; ich habe, du habest, er habe geliebet.</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>: amaverimus, -eritis, -erint; mi ljubili smo, vi ljubili ste, oni ljubili su; wir haben, ihr habet, sie haben geliebet.</p>
-         <p><term corresp="#G_pluskvamperfekt">Ciloprošasto vrime</term></p>
+         <p><term corresp="#pluskvamperfekt">Ciloprošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: amavissem, -es, -et; ja 
             <form type="inflectedForm" xml:lang="hr">  
                <orth>bio sam ljubio</orth>
@@ -5962,7 +5960,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, vi 
-            <form type="inflectedForm" xml:lang="hr">
+            <form type="inflectedForm"  xml:lang="hr">
                <orth>budete ljubili</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -5998,13 +5996,13 @@
                   <gram type="infinitive" corresp="#G_infinitiv"/>
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
-            </form>, lieben. <term corresp="#G_imperfekt">Prošasto</term> i <term corresp="#G_pluskvamperfekt">cilopro[šasto]</term>: amavisse, geliebt haben. <term corresp="#G_futur_I #G_futur_II">Došasto</term>: amaturum, -ram, -rum esse; lieben werden. Supinum (*): amatum, -tu; ljubiti; zu lieben. Gerundium (*): amandi, -do, -dum; za ljubiti, 
+            </form>, lieben. <term corresp="#G_imperfekt">Prošasto</term> i <term corresp="#pluskvamperfekt">cilopro[šasto]</term>: amavisse, geliebt haben. <term corresp="#G_futur_I #G_futurII">Došasto</term>: amaturum, -ram, -rum esse; lieben werden. Supinum (*): amatum, -tu; ljubiti; zu lieben. Gerundium (*): amandi, -do, -dum; za ljubiti, 
             <form type="inflectedForm" xml:lang="hr">
                <orth>ljubeći</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
                 </gramGrp>
             </form>, na ljubljenje; zu lieben, durch, mit lieben, um zu lieben.</p>
          <p>(*) Ovo smišano došasto vrime u nimačkomu jest ukazujućeg načina, ali u latinskom vazda metne se u vežući.</p>
@@ -6027,12 +6025,12 @@
          <p>amaturus, -a, -um; der, die, das lieben wird</p>
          <pb n="51"/>
          <p>Biližke I. Piše se takojer u ukazujućemu načinu misto er liebet, ich liebete; er liebt, ich liebte, ali u drugom <term corresp="#lice">sobstvu</term> <term corresp="#G_prezent">sadašnjeg vrimena</term> nije tako običajno pisati: du liebst. U vežućem pak načinu nigda e ostavlja se, za različnost ukazujućeg načina.</p>
-         <p>	II. Kada vežući način sam prez prididućeg daß ili kakve druge prilične riči stoji, onda <term corresp="#G_pomocni">pomoćna rič</term>na prid metne se, kano: ich würde lieben; ich würde geliebet haben wenn; ich glaube, er habe geliebet.</p>
+         <p>	II. Kada vežući način sam prez prididućeg daß ili kakve druge prilične riči stoji, onda <term corresp="#G_pomoćni">pomoćna rič</term>na prid metne se, kano: ich würde lieben; ich würde geliebet haben wenn; ich glaube, er habe geliebet.</p>
          <p>	III. Nika običajna govorenja u latinskomu, kano pitanje, dopuštenje, zaktivanje, tako se pregibaju, kako vežući način. Nap.:</p>
          <p>	Pitajući: Amem? Da ja ljubim? Ich solle lieben.</p>
          <p>	Dopuštajući: Ames; moreš ljubiti; du magst ili kannst lieben.</p>
          <p>	Zaktivajući: Utinam amaret!; O, da 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bi //on// ljubio</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -6449,7 +6447,7 @@
          <p><term corresp="#jednina">J[ednostavno]</term>: amatus, -a, -um sim v[el] fuerim, sis v[el] fueris, sit v[el] fuerit; 
             ja bio sam ljubljen, ti bio si ljubljen, on ; ich sey, du seyst, er sey geliebet worden.</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>:  amati, -ae, -a simus v[el] fuerimus, sitis v[el] fueritis, sint v[el] fuerint; mi bili smo ljubljeni, vi bili ste ljubljeni, oni bili su ljubljeni; wir seyn, ihr seyd, sie seyn geliebet worden.</p>
-         <p><term corresp="#G_pluskvamperfekt">Ciloprošasto vrime</term></p>
+         <p><term corresp="#pluskvamperfekt">Ciloprošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: amatus, -a, -um essem v[el] fuissem, esse v[el] fuisses, esset v[el] fuisset; ja 
             <form type="inflectedForm" xml:lang="hr">  
                <orth>bio sam ljubljen bio</orth>
@@ -6531,7 +6529,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>; wir wären, ihr wäret, sie wären geliebet worden.</p>
-         <p><term corresp="#G_futur_I #G_futur_II">Došasto vrime</term></p>
+         <p><term corresp="#G_futur_I #G_futurII">Došasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: amatus, -a, -um ero v[el] fuero, eris v[el] fueris, erit v[el] fuerit; ja 
             <form type="inflectedForm" xml:lang="hr">  
                <orth>budem ljubljen</orth>
@@ -6974,7 +6972,7 @@
             </form>; wir hatten, ihr hattet, sie hatten gelehret.</p>
          <p><term corresp="#G_futur_I #G_futur_II">Došasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: docebo, -bis, -bit; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učiti ću</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -6986,7 +6984,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, ti 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učiti ćeš</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -6998,7 +6996,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, on 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učiti će</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7011,7 +7009,7 @@
                </gramGrp>
             </form>; ich werde oder vill lehren, du wirst, er wird lehren.</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>: docebimus, -bitis, -bunt; mi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učiti ćemo</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7023,7 +7021,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, vi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učiti ćete</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7035,7 +7033,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učiti će</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7049,7 +7047,7 @@
             </form>; wir werden, ihr werdet, sie werden lehren.</p>
          <p><term corresp="#imperativ">Zapovidajućeg načina</term> <term corresp="#G_prezent">sadanje vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: doce, doceat; 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>uči</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7060,7 +7058,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form> ti, 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>neka uči</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7073,7 +7071,7 @@
             </form> on; lehre du, lehre er.</p>
          <pb n="58"/>
          <p><term corresp="#mnozina">V[ećestavno]</term>: doceamus, docete, doceant; 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učimo</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7084,7 +7082,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>mi, 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učite</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7095,7 +7093,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>vi, 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>neka uče</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7114,7 +7112,7 @@
          <p><term corresp="#mnozina">V[ećestavno]</term>: doceamus, -eatis, -eant; mi učimo, vi učite, oni uče; wir lehren, ihr lehret, sie lehren.</p>
          <p><term corresp="#G_imperfekt">Polprošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: docerem, -res, -ret; ja učijah ili 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>učio bi</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7291,7 +7289,7 @@
             </form>; wir hätten, ihr hättet, sie hätten gelehret.</p>
          <p><term corresp="#G_futur_I #G_futur_II">Došasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: docuero, -eris, -erit; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"   xml:lang="hr">  
                <orth>budem učio</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7304,7 +7302,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, ti 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>budeš učio</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7331,7 +7329,7 @@
                </gramGrp>
             </form>; ich werde lehren oder werde gelehret haben, du werdest, er werde lehren.</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>: docuerimus, -eritis, -erint; mi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>budemo učili</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7386,7 +7384,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>, za učenje; zu lehren, durch, mit lehren um zu lehren.</p>
          <p><term corresp="#G_particip">Dioništvo</term> <term corresp="#G_prezent">sadanjeg vrimena</term></p>
@@ -7423,7 +7421,7 @@
          <p><term corresp="#G_imperfekt">Polprošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>:  docebar, -baris v[el] –bare, -batur; ja učijah se, ti učijaše se, on učijaše se; ich wurde, du wurdest, er wurde gelehret.</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>: docebamur, -bamini, -bantur; mi učijasmo se, vi učijaoste se, oni učijau se; wir wurden, ihr wurdet, sie wurden gelehret.</p>
-         <p><term corresp="#G_perfekt">Prošasto vrime</term></p>
+         <p><term corresp="#perfekt">Prošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: doctus, -a, -um sum v[el] fui, es v[el] fuisti, est v[el]  fuit; ja 
             <form type="inflectedForm" xml:lang="hr">  
                <orth>bio sam učen</orth>
@@ -7438,7 +7436,7 @@
                   <gram type="voice" corresp="#pasiv"/>
                </gramGrp>
             </form>, ti 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bio si učen</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7694,7 +7692,7 @@
                </gramGrp>
             </form>; werde du, werde er gelehret.</p>
          <p><term corresp="#mnozina">Već[estavno]</term>: doceamur, docemini, doceantur; 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>budimo //mi// učeni</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7757,7 +7755,7 @@
                </gramGrp>
             </form>; du sollst, er soll gelehret werden.</p>
          <p><term corresp="#mnozina">Već[estavno]</term>: docebimur, doceminor, docentor; biti ćemo mi ili 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>budimo učeni</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -7769,7 +7767,7 @@
                   <gram type="voice" corresp="#pasiv"/>
                </gramGrp>
             </form>, 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>budite //vi// učeni</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -8699,7 +8697,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>, za štijenje; zu lesen, durch, mit lesen, um zu lesen.</p>
          <p><term corresp="#G_particip">Dioništvo</term> <term corresp="#G_prezent">sadanjeg vrimena</term></p>
@@ -8811,7 +8809,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>; wir wurden, ihr wurdet, sie wurden gelesen.</p>
-         <p><term corresp="#G_perfekt">Prošasto vrime</term></p>
+         <p><term corresp="#perfekt">Prošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: lectus, -a, -um sum v[el] fui, es v[el] fuisti, est v[el] fuit; ja 
             <form type="inflectedForm" xml:lang="hr">  
                <orth>bio sam štijen</orth>
@@ -9042,7 +9040,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>, oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>biti će štijeni</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9388,7 +9386,7 @@
          <p>Audio. <term corresp="#aktiv">Čineća</term> <term corresp="#glagol">rič</term>.</p>
          <p>Ukazujućeg načina <term corresp="#G_prezent">sadanje vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: audio, -is, -it; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujem</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9400,7 +9398,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, ti 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuješ</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9412,7 +9410,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, on 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuje</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9426,7 +9424,7 @@
             </form>; ich höre, du hörest, er höret.</p>
          <pb n="71"/>
          <p><term corresp="#mnozina">V[ećestavno]</term>: audimus, itis, iunt; mi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujemo</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9438,7 +9436,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, vi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujete</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9450,7 +9448,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuju</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9464,7 +9462,7 @@
             </form>; wir hören, ihr höret, sie hören.</p>
          <p><term corresp="#G_imperfekt">Polprošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: audiebam, -bas, -bat; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujah</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9476,7 +9474,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, ti 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujaše</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9488,7 +9486,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, on 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujaše</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9501,7 +9499,7 @@
                </gramGrp>
             </form>; ich hörete, du höretest, er hörete</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>: audiebamus, -batis, -bant; mi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujasmo</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9513,7 +9511,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, vi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujaoste</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9525,7 +9523,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čujau</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9539,7 +9537,7 @@
             </form>; wir höreten, ihr höretet, sie höreten.</p>
          <p><term corresp="#G_perfekt">Prošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: audivi, -isti, -vit; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuo sam</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9551,7 +9549,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, ti 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuo si</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9563,7 +9561,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, on 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuo je</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9576,7 +9574,7 @@
                </gramGrp>
             </form>; ich habe, du hast, er hate gehöret.</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>: audivimus, -vistis, -verunt, -ere; mi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuli smo</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9588,7 +9586,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, vi 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuli ste</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9600,7 +9598,7 @@
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>, oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>čuli su</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9640,7 +9638,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>, on 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bijaše čuo</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9967,7 +9965,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>, oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>budu čuli</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -9998,7 +9996,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>, za čujenje; zu hören, durch, mit hören, um zu hören.</p>
          <p><term corresp="#G_particip">Dioništvo</term> <term corresp="#G_prezent">sadanjeg vrimena</term></p>
@@ -10097,7 +10095,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>, oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bijau čujeni</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -10110,7 +10108,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>; wir wurden, ihr wurdet, sie wurden gehöret.</p>
-         <p><term corresp="#G_perfekt">Prošasto vrime</term></p>
+         <p><term corresp="#perfekt">Prošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: auditus, -a, -um sum v[el] fui, es v[el] fuisti, est v[el] fuit; ja 
             <form type="inflectedForm" xml:lang="hr">  
                <orth>bio sam čujen</orth>
@@ -10178,7 +10176,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>, oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bili su čujeni</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -10220,7 +10218,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>, on 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bijaše čujen bio</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -10301,7 +10299,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>, on 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>biti će čujen</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -10468,7 +10466,7 @@
                   <gram type="voice" corresp="#pasiv"/>
                </gramGrp>
             </form>, 
-            <form type="inflectedForm" xml:lang="hr">
+            <form type="inflectedForm"  xml:lang="hr">
                <orth>neka budu //oni// čujeni</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -10487,7 +10485,7 @@
          <p>Polprošasto vrime</p>
          <p><term corresp="#jednina">J[ednostavno]</term>: audirer, -reris, -ere, -retur; ja bijah čujen, ti bijaše čujen, on bijaše čujen; ich würde, du würdest, er würde gehöret.</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>: audiremur, -remini, -rentur; mi bijasmo čujeni, vi bijaoste čujeni, oni bijau čujeni; wir würden, ihr würdet, sie würden gehöret.</p>
-         <p><term corresp="#G_perfekt">Prošasto vrime</term></p>
+         <p><term corresp="#perfekt">Prošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: auditus, -a, -um sim v[el] fuerim, sis v[el] fueris, sit v[el] fuerit; ja bio sam čujen, ti bio si čujen, on bio je čujen; ich sey, du seyst, er sey gehöret worden.</p>
          <p><term corresp="#mnozina">V[ećestavno]</term>: auditi, -ae, -a simus v[el] fuerimus, sitis v[el] fueritis, sint v[el] fuerint; mi bili smo čujeni, vi bili ste čujeni, oni bili su čujeni; wir seyn, ihr seyd, sie seyn gehöret worden.</p>
          <p><term corresp="#G_pluskvamperfekt">Ciloprošasto vrime</term></p>
@@ -10823,7 +10821,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbalAdverb" corresp="#G_prosli"/>
+                  <gram type="verbialAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>, za služenje; zu brauchen.</p>
          <p><term corresp="#G_particip">Dioništvo</term></p>
@@ -11280,7 +11278,7 @@
          <p><term corresp="#G_perfekt">Prošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: potuerim, -eris, -erit; ja mogao sam; ich habe, du habest gekonnt, gemocht.</p>
          <p><term corresp="#mnozina">Već[estavno]</term>: potuerimus, -eritis, -erint; mi mogli smo; wir haben gekonnt, gemocht.</p>
-         <p><term corresp="#G_pluskvamperfekt">Ciloprošasto vrime</term></p>
+         <p><term corresp="#pluskvamperfekt">Ciloprošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: potuissem, -ses, -set; ja 
             <form type="inflectedForm" xml:lang="hr">
                <orth>bijah bio mogao</orth>
@@ -11349,7 +11347,7 @@
                   <gram type="infinitive" corresp="#G_infinitiv"/>
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
-            </form>; können, mögen. <term corresp="#G_imperfekt">Prošasto</term> i <term corresp="#G_pluskvamperfekt">cilopro[šasto] [vrime]</term> : potuisse; gekonnt, gemocht haben.</p>
+            </form>; können, mögen. <term corresp="#G_imperfekt">Prošasto</term> i <term corresp="#pluskvamperfekt">cilopro[šasto] [vrime]</term> : potuisse; gekonnt, gemocht haben.</p>
          <p>Fero. <term corresp="#aktiv">Čineća</term> <term corresp="#glagol">rič</term>.</p>
          <p>Ukazujućeg načina <term corresp="#G_prezent">sadanje vrime</term></p>
          <p><term corresp="#jednina">Jed[nostavno]</term>: fero, fers, fert; ja 
@@ -11616,7 +11614,7 @@
                   <gram type="infinitive" corresp="#G_infinitiv"/>
                   <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
-            </form>; tragen.  <term corresp="#G_imperfekt">Proš[asto]</term> i <term corresp="#G_pluskvamperfekt">cilopro[šasto]</term>: tulisse; getragen haben. <term corresp="#G_futur_I #G_futur_II">Doš[asto]</term>: laturum, -am, -um esse; tragen werden. Supina: latum, latu; za nositi; zu tragen. Gerundia: ferendi, -do, -dum; za nositi; zu tragen.</p>
+            </form>; tragen.  <term corresp="#G_imperfekt">Proš[asto]</term> i <term corresp="#pluskvamperfekt">cilopro[šasto]</term>: tulisse; getragen haben. <term corresp="#G_futur_I #G_futur_II">Doš[asto]</term>: laturum, -am, -um esse; tragen werden. Supina: latum, latu; za nositi; zu tragen. Gerundia: ferendi, -do, -dum; za nositi; zu tragen.</p>
          <p><term corresp="#G_particip">Dioništvo</term></p>
          <p><term corresp="#G_prezent">Sada[nje] v[rime]</term>: ferens,-tis; 
             <form type="inflectedForm" xml:lang="hr">
@@ -11761,9 +11759,9 @@
                   <gram type="infinitive" corresp="#G_infinitiv"/>
                   <gram type="voice" corresp="#pasiv"/>
                </gramGrp>
-            </form>; getragen werden. <term corresp="#G_perfekt">Proš[asto]</term> i <term corresp="#G_pluskvamperfekt">cilopro[šasto]</term>: latum, </p>
-         <p>-am, -um esse v[el] fuisse; getragen worden seyn. <term corresp="#G_futur_I #G_futur_II">Doš[asto] v[rime]</term>: latum iri; werden getragen werden.</p>
-         <p><term corresp="#G_particip">Dioništvo</term> <term corresp="#G_perfekt">prošastog vrimena</term></p>
+            </form>; getragen werden. <term corresp="#G_perfekt">Proš[asto]</term> i <term corresp="#pluskvamperfekt">cilopro[šasto]</term>: latum, </p>
+         <p>-am, -um esse v[el] fuisse; getragen worden seyn. <term corresp="#G_futur_I #G_gutur_II">Doš[asto] v[rime]</term>: latum iri; werden getragen werden.</p>
+         <p><term corresp="#G_particip">Dioništvo</term> <term corresp="G_perfekt">prošastog vrimena</term></p>
          <p>latus, -a, -um; 
             <form type="inflectedForm" xml:lang="hr">  
                <orth>nošen</orth>
@@ -11775,7 +11773,7 @@
                   <gram type="number" corresp="#jednina"/>
                </gramGrp>
             </form>, 
-            <form type="inflectedForm" expand="nošena" xml:lang="hr">  
+            <form type="inflectedForm"  expand="nošena" xml:lang="hr">  
                <orth>a</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -11785,7 +11783,7 @@
                   <gram type="number" corresp="#jednina"/>
                </gramGrp>
             </form>, 
-            <form type="inflectedForm" expand="nošeno" xml:lang="hr">  
+            <form type="inflectedForm"  expand="nošeno" xml:lang="hr">  
                <orth>o</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -11801,7 +11799,7 @@
          <p>Eo</p>
          <p>Ukazujućeg načina <term corresp="#G_prezent">sadanje vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: eo, is, it; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>hodim</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -11815,7 +11813,7 @@
             </form>; ich gehe. <term corresp="#mnozina">V[ećestavno]</term>: imus, itis, eunt. </p>
          <p><term corresp="#G_imperfekt">Polprošasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: ibam, ibas, ibat; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>hodijah</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -11851,7 +11849,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbalAdverb" corresp="#G_prosli"/>
+                  <gram type="verbialAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>, za hodenje; zu gehen.</p>
          <p><term corresp="#G_particip">Dioništvo</term> <term corresp="#G_prezent">sadanjeg vrimena</term></p>
@@ -11868,7 +11866,7 @@
                </gramGrp>
             </form>; gehend oder der, die, das gehende.</p>
          <p>Ostala vrimena kao audio pregibaju se.</p>
-         <p>	Biližka. Na ovi način pregiaju se sastavljena od eo, kano: adeo, exeo, ineo, etc. Veneo pak ima <term corresp="#pasiv">trpljivo zlamenje</term>. Queo, nequeo na isti način dovršuju se, ali ne imaju <term corresp="#imperativ">zapovidajući način</term>, gerundia i <term corresp="#G_particip">dioništva</term> <term corresp="#G_prezent">sadanjeg vrimena</term>.</p>
+         <p>	Biližka. Na ovi način pregiaju se sastavljena od eo, kano: adeo, exeo, ineo, etc. Veneo pak ima <term corresp="#pasiv">trpljivo zlamenje</term>. Queo, nequeo na isti način dovršuju se, ali ne imaju <term corresp="#imperativ">zapovidajući način</term>, gerundia i <term corresp="G_particip">dioništva</term> <term corresp="#G_prezent">sadanjeg vrimena</term>.</p>
          <p>Fio</p>
          <p>Ja 
             <form type="inflectedForm" xml:lang="hr">  
@@ -12005,7 +12003,7 @@
          <p><term corresp="#G_futur_I #G_futur_II">Došasto vrime</term></p>
          <p><term corresp="#jednina">J[ednostavno]</term>: 	fiam, -es, -et;			factus, -a, -um ero v[el] fuero, etc.</p>
          <p>			ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>biti ću učinjen</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -12017,7 +12015,7 @@
                   <gram type="voice" corresp="#pasiv"/>
                </gramGrp>
             </form>; 	ich werde werden.				ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>budem učinjen</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -12352,7 +12350,7 @@
                <orth>hoću</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomocni"/>
+                  <gram type="verbType" corresp="#G_pomoćni"/>
                   <gram type="tense" corresp="#sadasnje"/> 
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
@@ -12366,7 +12364,7 @@
                <orth>hoću</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomocni"/>
+                  <gram type="verbType" corresp="#G_pomoćni"/>
                   <gram type="tense" corresp="#sadasnje"/> 
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
@@ -12379,7 +12377,7 @@
                <orth>hoćeš</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomocni"/>
+                  <gram type="verbType" corresp="#G_pomoćni"/>
                   <gram type="tense" corresp="#sadasnje"/> 
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
@@ -12392,7 +12390,7 @@
                <orth>hoće</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomocni"/>
+                  <gram type="verbType" corresp="#G_pomoćni"/>
                   <gram type="tense" corresp="#sadasnje"/> 
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
@@ -12405,7 +12403,7 @@
                <orth>hoćemo</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomocni"/>
+                  <gram type="verbType" corresp="#G_pomoćni"/>
                   <gram type="tense" corresp="#sadasnje"/> 
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
@@ -12418,7 +12416,7 @@
                <orth>hoćete</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomocni"/>
+                  <gram type="verbType" corresp="#G_pomoćni"/>
                   <gram type="tense" corresp="#sadasnje"/> 
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
@@ -12431,7 +12429,7 @@
                <orth>hoće</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomocni"/>
+                  <gram type="verbType" corresp="#G_pomoćni"/>
                   <gram type="tense" corresp="#sadasnje"/> 
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
@@ -12528,7 +12526,7 @@
          <p>velitis; vi hoćete; ihr wollet			nolitis			malitis</p>
          <p>velint; oni hoće; sie wollen			nolint			malint</p>
          <p>vellem; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>hotio bi</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -12622,7 +12620,7 @@
                </gramGrp>
             </form>oni; sie sollen nicht wollen</p>
          <p>Volo i malo u <term corresp="#imperativ">zapovidajućem načinu</term> nisu običajna: ele more se rejti: fac velis, fac malis.</p>
-         <p><term corresp="#G_infinitiv">Nesvršenog načina</term></p>
+         <p><term corresp="G_infinitiv">Nesvršenog načina</term></p>
          <p>velle; 
             <form type="inflectedForm" xml:lang="hr">
                <orth>hotiti</orth>
@@ -12679,7 +12677,7 @@
             </form>.			Ich habe angefangen.</p>
          <p>Ukazujujućeg načina				Vežućeg načina</p>
          <p><term corresp="#G_perfekt">Proš[asto] v[rime]</term>: coepi, -isti, etc.			Coeperim, -is, etc.</p>
-         <p><term corresp="#G_pluskvamperfekt">Cilopro[šasto] v[rime]</term>: coeperam, -as, etc.		Coepissem, -es, etc.</p>
+         <p><term corresp="G_pluskvamperfekt">Cilopro[šasto] v[rime]</term>: coeperam, -as, etc.		Coepissem, -es, etc.</p>
          <p><term corresp="#G_futur_I #G_futur_II">Došasto vrime</term>: coepero, -is, etc.</p>
          <p><term corresp="#G_particip">Dioništvo</term>					<term corresp="#G_infinitiv">Nesvršenog načina</term></p>
          <p><term corresp="#G_perfekt">Proš[asto] v[rime]</term>: coeptus, -a, -um.			Coepisse.</p>
@@ -12967,7 +12965,7 @@
          <p>Ali nika od ovih <term corresp="#vrijeme">vrimena</term> malo jesu običajna.</p>
          <p>Forem.</p>
          <p>Forem, -res, -ret misto essem, esses; ja 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bio bi</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -12979,7 +12977,7 @@
                </gramGrp>
             </form>; ich wäre.</p>
          <p>Forent misto essent; oni 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bili bi</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -13158,7 +13156,7 @@
          <p>misto faciam, -as, etc. ili fecero, -ris, etc.</p>
          <p>Ausim, -is, -it, vežućeg načina misto audeam, </p>
          <p>audeas, etc. ili ausus ero; kad 
-            <form type="inflectedForm" xml:lang="hr">  
+            <form type="inflectedForm"  xml:lang="hr">  
                <orth>bi //ja// smio</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
@@ -13717,7 +13715,7 @@
          <p>    5. Na pitanje: Na što? Za što? Zu was? Warum? Kod <term corresp="#glagol">riči</term> zlamenujućih gibanje iliti micanje slidi supinum in –um. To događa se kod <term corresp="#glagol">riči</term>: eo, venio, propero, mitto, admitto, duco, etc. Percunctatum ibo. Ter. Spectatum admissi. Hor.</p>
          <p>    6. Nika <term corresp="#pridjev">primitljiva</term>, zlamenujuća način ili mogućnost, oblast i kripost gustokrat imaju uza se supinum in –u. Carum, pulcrum aspectu. Difficile, facile, fas dictu. Taka jesu: gratum, acerbum, nefas, optimum, jucundum, mirum, mirabile, terribile, dignum, molestum, arduum, utile, etc.</p>
          <p>Ako pak <term corresp="#glagol">rič</term> svoje spadanje kod sebe uzimade, onda nesvršeni samo način potribuje se. Ut difficile sit de temeritate eorum dicere. Cic.</p>
-         <p>Biližka I. <term corresp="#glagol">Riči</term> u <term corresp="#G_infinitiv">nesvršenomu načinu</term>, <term corresp="#G_particip">dioništvo</term>, gerundia i supinum na –um, vladaju ista ona <term corresp="#padez">spadanja</term>, koja u svršenom načinu vladale jesu. </p>
+         <p>Biližka I. <term corresp="#glagol">Riči</term> u <term corresp="#infinitiv">nesvršenomu načinu</term>, <term corresp="#G_particip">dioništvo</term>, gerundia i supinum na –um, vladaju ista ona <term corresp="#padez">spadanja</term>, koja u svršenom načinu vladale jesu. </p>
          <p>Alpheus, cui tu rem tuam commendare solebas. Cic. Appetens conjunctionem hominum et societatem. Id. Fortunae sunt committenda omnia. Id. Non est jam tempus plura narrandi. Id. Gratis servitum matribus ibo. Virg. </p>
          <pb n="123"/>
          <p>II. Drugda jedna <term corresp="#glagol">rič</term> ili čitavo govorenje kano jedno <term corresp="#imenica">samostavno</term> u <term corresp="#srednji">neznanomu pokolenju</term> potribuje se. </p>
@@ -13836,7 +13834,7 @@
          <p>	Indicativus.		Ukazujući.			Anzeigende Art.</p>
          <p>	Imperativus.		<term corresp="#imperativ">Zapovjedajući</term>.		Gebiethende Art.</p>
          <p>	Conjunctivus.	Vežući.			Verbindende Art.</p>
-         <p>	Infinitivus.		<term corresp="#G_infinitiv">Nesvršeni</term>.			Unbestimmte Art.</p>
+         <p>	Infinitivus.		<term corresp="G_infinitiv">Nesvršeni</term>.			Unbestimmte Art.</p>
          <p>Nomen.			<term corresp="#imenica #pridjev">Ime</term>.				Nennwort.</p>
          <p>Proprium.		<term corresp="#I_vlastita">Ime vlastito</term>.			Eigener Namen.</p>
          <p>Appellativum.	<term corresp="#I_opca">Općinsko</term>.			Gemeines Nennwort.</p>
@@ -13876,7 +13874,7 @@
          <p>	Futurum.		<term corresp="#G_futur_I #G_futur_II">Došasto</term>.			Künftige Zeit.</p>
          <p>Verbum.			<term corresp="#glagol">Rič</term>.				Zeitwort.</p>
          <p>	Personale.		Sobstvena rič.		Persönliches Zeitwort.</p>
-         <p>	Impersonale. 	<term corresp="#bezlicno">Nesobstvena</term>.		Unpersönliches Zeitwort.</p>
+         <p>	Impersonale. 	<term corresp="#bezlično">Nesobstvena</term>.		Unpersönliches Zeitwort.</p>
          <p>	Activum.		<term corresp="#aktiv">Čineća</term>.			Wirkendes Zeitwort.</p>
          <p>	Passivum.		<term corresp="#pasiv">Trpljiva</term>.			Leidendes Zeitwort.</p>
          <p>	Neutrum.		Srednja.			Mittleres Zeitwort.</p>

@@ -34,7 +34,7 @@ function pop_up(e){
     "<p class='tenseType podebljaj'>Glagolsko vrijeme: <span class='vrijednost'>"+$(e).parent().attr("data-tenseType").replace("#G_","").replace("_II"," II.").replace("_I"," I.")+"</span></p>"+
     "<p class='mood podebljaj'>Glagolski način: <span class='vrijednost'>"+$(e).parent().attr("data-mood").replace("#","").replace("_II"," II.").replace("_I"," I.")+"</span></p>"+
     "<p class='infinitive podebljaj'>Infinitiv: <span class='vrijednost'>"+$(e).parent().attr("data-infinitive").replace("#G_infinitiv","infinitiv").replace("#G_supin","supin")+"</span></p>"+
-    "<p class='verbalAdverb podebljaj'>Glagolski prilog: <span class='vrijednost'>"+$(e).parent().attr("data-verbalAdverb").replace("#G_prosli","prošli").replace("#G_sadasnji","sadašnji")+"</span></p>"+
+    "<p class='verbialAdverb podebljaj'>Glagolski prilog: <span class='vrijednost'>"+$(e).parent().attr("data-verbialAdverb").replace("#G_prosli","prošli").replace("#G_sadasnji","sadašnji")+"</span></p>"+
     "<p class='voice podebljaj'>Glagolsko stanje: <span class='vrijednost'>"+$(e).parent().attr("data-voice").replace("#","").replace("mnozina","množina")+"</span></p>"+
     "<p class='Fajl podebljaj'>Gramatika: <span class='vrijednost'>"+$(e).parent().attr("data-Fajl")+"</span></p>",
     showCloseButton: true,
@@ -95,10 +95,10 @@ function trazilica() {
   for (let i = lastDisplayedPost; i < podatci.length; i++) {
     sakri++
     var obj = podatci[i];
-    lista_svega = [obj.Orth, obj.Pos, obj.VerbType, obj.Participle, obj.Gender, obj.PronounType, obj.Number, obj.Case, obj.inflectionType, obj.animacy, obj.tense,obj.person, obj.adjectiveType, obj.numeralType, obj.tenseType, obj.voice, obj.nounType, obj.mood, obj.infinitive, obj.verbalAdverb, obj.Fajl]
+    lista_svega = [obj.Orth, obj.Pos, obj.VerbType, obj.Participle, obj.Gender, obj.PronounType, obj.Number, obj.Case, obj.inflectionType, obj.animacy, obj.tense,obj.person, obj.adjectiveType, obj.numeralType, obj.tenseType, obj.voice, obj.nounType, obj.mood, obj.infinitive, obj.verbialAdverb, obj.Fajl]
     lista_svega = lista_svega.filter(function (e) { return e === 0 || e });
     if (checker(lista_svega, atributi)) {
-      resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-tense='"+obj.tense+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-mood='"+obj.mood+"' data-infinitive='"+obj.infinitive+"' data-verbalAdverb='"+obj.verbalAdverb+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl.replace(/<em>/g, "").replace(/<\/em>/g, "")+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
+      resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-tense='"+obj.tense+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-mood='"+obj.mood+"' data-infinitive='"+obj.infinitive+"' data-verbialAdverb='"+obj.verbialAdverb+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl.replace(/<em>/g, "").replace(/<\/em>/g, "")+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
       brojka++
     }
     lastDisplayedPost = sakri;

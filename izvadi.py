@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
 import xlsxwriter
-import os, glob
-
 
 workbook = xlsxwriter.Workbook('retrogram.xlsx')
 worksheet = workbook.add_worksheet()
@@ -24,15 +22,12 @@ worksheet.write('P1', 'voice')
 worksheet.write('Q1', 'nounType')
 worksheet.write('R1', 'mood')
 worksheet.write('S1', 'infinitive')
-worksheet.write('T1', 'verbalAdverb')
+worksheet.write('T1', 'verbialAdverb')
 worksheet.write('U1', 'Fajl')
 
-
-adresa="/".join(os.getcwd().split(os.sep))
-
-
+fajlovi=['retrogram-appendini-v11-final29.9.2022.xml', 'retrogram-della_bella-v12 final 27.9.2022.xml', 'retrogram-kasic-v11-final 22.9.2022.xml', 'retrogram-lanosovic-v11 final 22.9.2022.xml','retrogram-mikalja-v18-final 22.9.2022.xml','retrogram-szentmartony-v11-final 22.9. 2022(2).xml','retrogram-tadijanovic-v11-final 22.9.2022.xml','retrogram-voltic-v12-final 22.9.2022(6).xml']
 i=2
-for fajl in glob.glob(os.path .join(adresa, '*.xml')):
+for fajl in fajlovi:
     with open(fajl, 'r', encoding='utf8') as f:
         file = f.read()
     # 'xml' is the parser used. For html files, which BeautifulSoup is typically used for, it would be 'html.parser'.
@@ -131,10 +126,10 @@ for fajl in glob.glob(os.path .join(adresa, '*.xml')):
         except:
             mood=""
         try:
-            verbalAdverb=form.find("gram", {"type" : "verbalAdverb"}) #pos['corresp']
-            verbalAdverb=verbalAdverb['corresp']
+            verbialAdverb=form.find("gram", {"type" : "verbialAdverb"}) #pos['corresp']
+            verbialAdverb=verbialAdverb['corresp']
         except:
-            verbalAdverb=""
+            verbialAdverb=""
         worksheet.write('A'+str(i),orth.text.strip())
         worksheet.write('B'+str(i),pos)
         worksheet.write('C'+str(i),verbType)
@@ -154,7 +149,7 @@ for fajl in glob.glob(os.path .join(adresa, '*.xml')):
         worksheet.write('Q'+str(i),nounType)
         worksheet.write('R'+str(i),mood)
         worksheet.write('S'+str(i),infinitive)
-        worksheet.write('T'+str(i),verbalAdverb)
-        worksheet.write('U'+str(i),fajl.split('\\')[-1])
+        worksheet.write('T'+str(i),verbialAdverb)
+        worksheet.write('U'+str(i),fajl)
         i+=1
 workbook.close()
