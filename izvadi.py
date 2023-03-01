@@ -155,6 +155,21 @@ for fajl in glob.glob(os.path .join(adresa, '*.xml')):
         worksheet.write('R'+str(i),mood)
         worksheet.write('S'+str(i),infinitive)
         worksheet.write('T'+str(i),verbalAdverb)
-        worksheet.write('U'+str(i),fajl.split('\\')[-1])
+        if "appendini" in fajl.split('\\')[-1]:
+            worksheet.write('U'+str(i),"Francesco M. Appendini, Grammatica della lingua Illirica (1808.)")
+        elif "della_bella" in fajl.split('\\')[-1]:
+            worksheet.write('U'+str(i),"Ardelio Della Bella, Instruzioni grammaticali della lingua illirica (1728.)")
+        elif "kasic" in fajl.split('\\')[-1]:
+            worksheet.write('U'+str(i),"Bartol Kašić, Institutionum linguae illyricae libri duo (1604.)")
+        elif "lanosovic" in fajl.split('\\')[-1]:
+            worksheet.write('U'+str(i),"Marijan Lanosović, Uvod u latinsko riči slaganje s nikima nimačkog jezika biližkama za korist slovinskih mladića složen (1776.)")
+        elif "mikalja" in fajl.split('\\')[-1]:
+            worksheet.write('U'+str(i),"Jakov Mikalja, Gramatika talijanska ukratko ili kratak nauk za naučiti latinski jezik (1649.)")
+        elif "szentmartony" in fajl.split('\\')[-1]:
+            worksheet.write('U'+str(i),"Ignacije Szentmártony, Eunleintung zur kroatischen Sprachlehre für Deutsche (1783.)")
+        elif "tadijanovic" in fajl.split('\\')[-1]:
+            worksheet.write('U'+str(i),"Blaž Tadijanović, Svašta po malo iliti kratko složenje imena, riči u ilirski i njemački jezik (1761.)")
+        elif "voltic" in fajl.split('\\')[-1]:
+            worksheet.write('U'+str(i),"Josip Voltić, Grammatica illirica (1803.)")
         i+=1
 workbook.close()

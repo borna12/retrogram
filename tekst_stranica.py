@@ -25,7 +25,7 @@ for fajl in glob.glob(os.path .join(adresa, '*.xml')):
         elif red.name=="pb":
             worksheet.write('A'+str(i),red.get("n"))
             if (i>2):
-                worksheet.write('B'+str(i-1),tekst2)
+                worksheet.write('B'+str(i-1),tekst2.replace("'","’"))
                 tekst2=""
             i+=1
     worksheet.write('B'+str(i-1),tekst2)       
