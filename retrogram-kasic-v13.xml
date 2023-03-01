@@ -642,6 +642,8 @@
      </encodingDesc>
      
       <revisionDesc>
+         <change when="2023-02-20" who="#pbago">završena inačica v13 - ispravak oznaka za paradigme</change>
+         <change when="2022-12-21" who="#pbago">završena inačica v12</change>
          <change when="2022-09-20" who="#mhorvat">redaktura v11</change>
          <change when="2022-09-16" who="#speric">korektura inačice v11</change>
          <change when="2022-09-12" who="#ttvrtkovic">završeno označivanje</change>
@@ -719,7 +721,7 @@
             Primjer označenog izraza s jednim terminom iz zaglavlja:
             <term corresp="#imenice">imenica</term>
             Primjer označenog izraza s dva termina iz zaglavlja:
-            <term corresp="#imenice #pridjevi">imena</term>
+            <term corresp="#imenica #pridjev">imena</term>
          -->
          <!-- 24.01.2022. PB:
             Prilikom označavanja situacija kao što su "ime posobito ili samostavno", potrebno je sve označiti kao jedan termin.
@@ -961,11 +963,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="sadasnje"/>
+                  <gram type="tense" corresp="#sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>
             
@@ -974,7 +976,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="infinitive" corresp="G_supin"/>
+                  <gram type="infinitive" corresp="#G_supin"/>
                </gramGrp>
             </form>
          -->
@@ -11194,7 +11196,7 @@ meos, meas, mea</p>
                <orth>sfoy (svoj)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#zamjenica"/>
-                  <gram type="pronounType" corresp="#povratno_posvojna "/>
+                  <gram type="pronounType" corresp="#Z_povratno_posvojna"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="case" corresp="#nominativ"/>
@@ -13782,7 +13784,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
          </p>
@@ -13794,7 +13796,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             ili bùducchi [budući]  bìo ili bil,  cum fuerim uel fuissem, essendo stato.</p>
@@ -13805,7 +13807,7 @@ meos, meas, mea</p>
                <orth> budúcchi  (budući)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -13818,7 +13820,7 @@ meos, meas, mea</p>
                <orth>budúchia  (buduća)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -13831,7 +13833,7 @@ meos, meas, mea</p>
                <orth>budúchie  (buduće)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
@@ -15267,7 +15269,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>ili
             <form type="inflectedForm" xml:lang="hr">
@@ -15275,7 +15277,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
          </p>
@@ -15286,7 +15288,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             ili bùducchi [budući]  hotío ili hotíl</p>
@@ -15297,7 +15299,7 @@ meos, meas, mea</p>
                <orth>hotiyúcchi (hotijući)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -15308,7 +15310,7 @@ meos, meas, mea</p>
                <orth>hotécchi (hoteći)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -15321,7 +15323,7 @@ meos, meas, mea</p>
                <orth> hotiyúchia (hotijuća)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -15332,7 +15334,7 @@ meos, meas, mea</p>
                <orth>hotéchia (hoteća)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#zenski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -15345,7 +15347,7 @@ meos, meas, mea</p>
                <orth> hotiyúchie (hotijuće)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
@@ -15356,7 +15358,7 @@ meos, meas, mea</p>
                <orth> hotéchie  (hoteće)</orth>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
-                  <gram type="verbType" corresp="#G_pomoćni"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="participle" corresp="#G_particip"/>
                   <gram type="gender" corresp="#srednji"/>
                   <gram type="number" corresp="#jednina"/>
@@ -16662,7 +16664,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
             docendo, cum doceam		insegnando </p>
@@ -16673,7 +16675,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             ili bùducchi ucío (budući učio) ili ucíl (učil)	cum docuerim uel docuissem,	hauendo insegnato.</p>
@@ -18071,7 +18073,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
             cum tangam	toccando io itd.</p>
@@ -18082,7 +18084,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             ili bùdducchi tijçáo [budući ticao]		hauendo toccato</p>
@@ -19486,7 +19488,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
             cum habeam		hauendo</p>
@@ -19497,7 +19499,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             ili bùducchi [budući] imáo  ili  imál </p>
@@ -22029,7 +22031,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>,
             leuando</p>
@@ -22040,7 +22042,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             ili bùducchi dvìghnuo (budući dvignuo) itd.</p>
@@ -22858,7 +22860,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
             cum possit,	puotendo</p>
@@ -22869,7 +22871,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             ili bùducchi [budući] mògao  ili mògal.</p>
@@ -23184,7 +23186,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
             cum pluat,		piouendo </p>
@@ -23195,7 +23197,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
             cum pluerit uel pluisset,	hauendo piouuto</p>
@@ -23516,7 +23518,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form>
             cum uerberetur</p>
@@ -23527,7 +23529,7 @@ meos, meas, mea</p>
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="verbialAdverb" corresp="#G_prosli"/>
+                  <gram type="verbalAdverb" corresp="#G_prosli"/>
                </gramGrp>
             </form>
          </p>

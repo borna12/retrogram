@@ -626,6 +626,8 @@
      </encodingDesc>
      
       <revisionDesc>
+         <change when="2023-02-21" who="#pbago">završena inačica v13 - ispravak oznaka za terminologiju i paradigme</change>
+         <change when="2022-12-21" who="#pbago">završena inačica v12</change>
          <change when="2020-08-30" who="#mhorvat">redaktura v11 od 29.8.2022</change>
          <change when="2020-08-29" who="#speric">redaktura v11</change>
          <change when="2022-08-18" who="#ljsaric">dovršeno označivanje v11</change>
@@ -754,7 +756,7 @@
             Primjer označenog izraza s jednim terminom iz zaglavlja:
             <term corresp="#imenice">imenica</term>
             Primjer označenog izraza s dva termina iz zaglavlja:
-            <term corresp="#imenice #pridjevi">imena</term>
+            <term corresp="#imenica #pridjev">imena</term>
          -->
          <!-- 24.01.2022. PB:
             Prilikom označavanja situacija kao što su "ime posobito ili samostavno", potrebno je sve označiti kao jedan termin.
@@ -873,11 +875,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="sadasnje"/>
+                  <gram type="tense" corresp="#sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>
             
@@ -886,7 +888,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="infinitive" corresp="G_supin"/>
+                  <gram type="infinitive" corresp="#G_supin"/>
                </gramGrp>
             </form>
          -->
@@ -3367,7 +3369,7 @@
                <form type="inflectedForm" xml:lang="hr">
                   <orth>otac</orth>
                   <gramGrp>
-                     <gram type="pos" corresp="imenica"/>
+                     <gram type="pos" corresp="#imenica"/>
                      <gram type="nounType" corresp="#I_opca"/>
                      <gram type="gender" corresp="#muski"/>
                      <gram type="number" corresp="#jednina"/>
@@ -3381,7 +3383,7 @@
             <form type="inflectedForm" xml:lang="hr">
                <orth>oca</orth>
                <gramGrp>
-                  <gram type="pos" corresp="imenica"/>
+                  <gram type="pos" corresp="#imenica"/>
                   <gram type="nounType" corresp="#I_opca"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -3394,7 +3396,7 @@
             <form type="inflectedForm" xml:lang="hr">
                <orth>ocu</orth>
                <gramGrp>
-                  <gram type="pos" corresp="imenica"/>
+                  <gram type="pos" corresp="#imenica"/>
                   <gram type="nounType" corresp="#I_opca"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -3407,7 +3409,7 @@
             <form type="inflectedForm" xml:lang="hr">
                <orth>oca</orth>
                <gramGrp>
-                  <gram type="pos" corresp="imenica"/>
+                  <gram type="pos" corresp="#imenica"/>
                   <gram type="nounType" corresp="#I_opca"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -3420,7 +3422,7 @@
             <form type="inflectedForm" xml:lang="hr">
                <orth>otac</orth>
                <gramGrp>
-                  <gram type="pos" corresp="imenica"/>
+                  <gram type="pos" corresp="#imenica"/>
                   <gram type="nounType" corresp="#I_opca"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
@@ -3432,7 +3434,7 @@
          <p>od <form type="inflectedForm" xml:lang="hr">
             <orth>oca</orth>
             <gramGrp>
-               <gram type="pos" corresp="imenica"/>
+               <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#jednina"/>
@@ -3445,7 +3447,7 @@
          <p>ovi <form type="inflectedForm" xml:lang="hr">
             <orth>oci</orth>
             <gramGrp>
-               <gram type="pos" corresp="imenica"/>
+               <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#mnozina"/>
@@ -3457,7 +3459,7 @@
          <p>ovi <form type="inflectedForm" xml:lang="hr">
             <orth>otaca</orth>
             <gramGrp>
-               <gram type="pos" corresp="imenica"/>
+               <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#mnozina"/>
@@ -3470,7 +3472,7 @@
          <p>ovima  <form type="inflectedForm" xml:lang="hr">
             <orth>ocem</orth>
             <gramGrp>
-               <gram type="pos" corresp="imenica"/>
+               <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#mnozina"/>
@@ -3482,7 +3484,7 @@
          <p>ove <form type="inflectedForm" xml:lang="hr">
             <orth>oce</orth>
             <gramGrp>
-               <gram type="pos" corresp="imenica"/>
+               <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#mnozina"/>
@@ -3494,7 +3496,7 @@
          <p>o, <form type="inflectedForm" xml:lang="hr">
             <orth>oci</orth>
             <gramGrp>
-               <gram type="pos" corresp="imenica"/>
+               <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#mnozina"/>
@@ -3506,7 +3508,7 @@
          <p>od <form type="inflectedForm" xml:lang="hr">
             <orth>otaca</orth>
             <gramGrp>
-               <gram type="pos" corresp="imenica"/>
+               <gram type="pos" corresp="#imenica"/>
                <gram type="nounType" corresp="#I_opca"/>
                <gram type="gender" corresp="#muski"/>
                <gram type="number" corresp="#mnozina"/>
@@ -4865,11 +4867,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="sadasnje"/>
+                  <gram type="tense" corresp="#sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>	ich liebe</p>
          <p>ti 
@@ -4878,11 +4880,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="sadasnje"/>
+                  <gram type="tense" corresp="#sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>	du liebest</p>
          <p>on 
@@ -4891,11 +4893,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="sadasnje"/>
+                  <gram type="tense" corresp="#sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>	er liebet</p>
          <p>mi 
@@ -4904,11 +4906,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="sadasnje"/>
+                  <gram type="tense" corresp="#sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
-                  <gram type="number" corresp="mnozina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#mnozina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>	wir lieben</p>
          <p>vi <form type="inflectedForm" xml:lang="hr">
@@ -4916,11 +4918,11 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="tense" corresp="sadasnje"/>
+               <gram type="tense" corresp="#sadasnje"/>
                <gram type="tenseType" corresp="#G_prezent"/>
                <gram type="person" corresp="#drugo"/>
-               <gram type="number" corresp="mnozina"/>
-               <gram type="voice" corresp="aktiv"/>
+               <gram type="number" corresp="#mnozina"/>
+               <gram type="voice" corresp="#aktiv"/>
             </gramGrp>
          </form>	ihr lieben</p>
          <p>oni <form type="inflectedForm" xml:lang="hr">
@@ -4928,11 +4930,11 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="tense" corresp="sadasnje"/>
+               <gram type="tense" corresp="#sadasnje"/>
                <gram type="tenseType" corresp="#G_prezent"/>
                <gram type="person" corresp="#trece"/>
-               <gram type="number" corresp="mnozina"/>
-               <gram type="voice" corresp="aktiv"/>
+               <gram type="number" corresp="#mnozina"/>
+               <gram type="voice" corresp="#aktiv"/>
             </gramGrp>
          </form>	sie lieben</p>
          <pb n="133"/>
@@ -4941,11 +4943,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="proslo"/>
+                  <gram type="tense" corresp="#proslo"/>
                   <gram type="tenseType" corresp="#G_imperfekt"/>
                   <gram type="person" corresp="#prvo"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>	ich liebete</p>
             <p>ti <form type="inflectedForm" xml:lang="hr">
@@ -4953,11 +4955,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="proslo"/>
+                  <gram type="tense" corresp="#proslo"/>
                   <gram type="tenseType" corresp="#G_imperfekt"/>
                   <gram type="person" corresp="#drugo"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form> du liebetest</p>
             <p>on <form type="inflectedForm" xml:lang="hr">
@@ -4965,11 +4967,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="proslo"/>
+                  <gram type="tense" corresp="#proslo"/>
                   <gram type="tenseType" corresp="#G_imperfekt"/>
                   <gram type="person" corresp="#trece"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form> er liebete</p>
             <p>mi <form type="inflectedForm" xml:lang="hr">
@@ -4977,11 +4979,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="proslo"/>
+                  <gram type="tense" corresp="#proslo"/>
                   <gram type="tenseType" corresp="#G_imperfekt"/>
                   <gram type="person" corresp="#prvo"/>
-                  <gram type="number" corresp="mnozina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#mnozina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form> wir liebeten</p>
             <p>vi <form type="inflectedForm" xml:lang="hr">
@@ -4989,11 +4991,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="proslo"/>
+                  <gram type="tense" corresp="#proslo"/>
                   <gram type="tenseType" corresp="#G_imperfekt"/>
                   <gram type="person" corresp="#drugo"/>
-                  <gram type="number" corresp="mnozina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#mnozina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form> ihr liebeten</p>
             <p>oni <form type="inflectedForm" xml:lang="hr">
@@ -5001,11 +5003,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="proslo"/>
+                  <gram type="tense" corresp="#proslo"/>
                   <gram type="tenseType" corresp="#G_imperfekt"/>
                   <gram type="person" corresp="#trece"/>
-                  <gram type="number" corresp="mnozina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#mnozina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form> sie liebeten</p>
             <p>ja <form type="inflectedForm" xml:lang="hr">

@@ -244,7 +244,7 @@ Stranica,Tekst
   prijedlogom u, koji ima značenje talijanskog nel, nelli, nelle, npr. stoje u kućah –
   stanno nelle case, u telesjeh – ne corpi, u raskošah – nelle delizie.</p><p>Premda imenice u jednini nemaju osmoga padeža s vlastitim nastavkom, taj se padež
   zamjenjuje dativom s prijedlogom u, npr. stoji u kući – sta in casa, imam te u srcu – ti
-  ho nel cuore, ja sam u nevolji – io sono in necessita.</p><p>Poglavlje II.</p><p>O rodovima i deklinacijama <term corresp=""#imenica"">imenica</term></p><p>Paragraf 1.</p><p>Kako se međusobno razlikuju deklinacije imenica</p><p>U ilirskom postoje tri roda imenica, muški, ženski i srednji. Muški se označava
+  ho nel cuore, ja sam u nevolji – io sono in necessita.</p><p>Poglavlje II.</p><p>O rodovima i deklinacijama imenica</p><p>Paragraf 1.</p><p>Kako se međusobno razlikuju deklinacije imenica</p><p>U ilirskom postoje tri roda imenica, muški, ženski i srednji. Muški se označava
   zamjenicom muškog roda ovi, koja znači hic, npr. ovi konj – questo cavallo, ovi zid –
   questo muro. Ženski rod se označava zamjenicom ova, ova žena – questa donna, ova riba –
   questo pesce.</p><p>Srednji se rod označava s ovo, ovo nebo vedro – questo cielo sereno, ovo vrjeme nezdravo
@@ -1161,7 +1161,7 @@ Stranica,Tekst
  <gram corresp=""#I_opca"" type=""nounType""/>
  <gram corresp=""#muski"" type=""gender""/>
  <gram corresp=""#jednina"" type=""number""/>
- <gram corresp=""#instrumenatal"" type=""case""/>
+ <gram corresp=""#instrumental"" type=""case""/>
  <gram corresp=""#I_a_sklonidba"" type=""inflectionType""/>
  <gram corresp=""#I_zivo"" type=""animacy""/>
  </gramGrp>
@@ -1242,7 +1242,7 @@ Stranica,Tekst
  <gram corresp=""#I_a_sklonidba"" type=""inflectionType""/>
  <gram corresp=""#I_zivo"" type=""animacy""/>
  </gramGrp>
- </form> o padri</p><p>Abl. od <form type=""in"
+ </form> o padri</p><p>Abl. od <form type=""inf"
 24,"<p>na -im, ocem i ocim – alli padri, to se ponekad događa i u nekim drugim primjerima, što
   će vam upotreba pokazati.</p><p>Te iste imenice koje završavaju na -ac u N kao i mnoge druge koje završavaju na -ak kao
   junak, ili na -ik kao grešnik, na -ok kao svjedok, na -uk kao unuk, u V jd. mijenjaju
@@ -2506,7 +2506,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#imenica"" type=""pos""/>
  <gram corresp=""#I_opca"" type=""nounType""/>
- <gram corresp=""#srednj"" type=""gender""/>
+ <gram corresp=""#srednji"" type=""gender""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#nominativ"" type=""case""/>
  <gram corresp=""#I_a_sklonidba"" type=""inflectionType""/>
@@ -7991,7 +7991,7 @@ Stranica,Tekst
  <orth>našinskoj</orth>
  <gramGrp>
  <gram corresp=""#pridjev"" type=""pos""/>
- <gram corresp=""#P_posvojni"" type=""adjectiveType""/>
+ <gram corresp=""#P_odnosni"" type=""adjectiveType""/>
  <gram corresp=""#zenski"" type=""gender""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#dativ"" type=""case""/>
@@ -8009,7 +8009,7 @@ Stranica,Tekst
  <orth>našinskoga</orth>
  <gramGrp>
  <gram corresp=""#pridjev"" type=""pos""/>
- <gram corresp=""#P_posvojni"" type=""adjectiveType""/>
+ <gram corresp=""#P_odnosni"" type=""adjectiveType""/>
  <gram corresp=""#muski"" type=""gender""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#akuzativ"" type=""case""/>
@@ -8091,7 +8091,7 @@ Stranica,Tekst
  <orth>našinskim</orth>
  <gramGrp>
  <gram corresp=""#pridjev"" type=""pos""/>
- <gram corresp=""#P_posvojni"" type=""adjectiveType""/>
+ <gram corresp=""#P_odnosni"" type=""adjectiveType""/>
  <gram corresp=""#muski"" type=""gender""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#instrumental"" type=""case""/>
@@ -8119,7 +8119,7 @@ Stranica,Tekst
  <orth>našinski</orth>
  <gramGrp>
  <gram corresp=""#pridjev"" type=""pos""/>
- <gram corresp=""#P_posvojni"" type=""adjectiveType""/>
+ <gram corresp=""#P_odnosni"" type=""adjectiveType""/>
  <gram corresp=""#muski"" type=""gender""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#nominativ"" type=""case""/>
@@ -8146,7 +8146,7 @@ Stranica,Tekst
  <orth>našinskih</orth>
  <gramGrp>
  <gram corresp=""#pridjev"" type=""pos""/>
- <gram corresp=""#P_posvojni"" type=""adjectiveType""/>
+ <gram corresp=""#P_odnosni"" type=""adjectiveType""/>
  <gram corresp=""#muski"" type=""gender""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#genitiv"" type=""case""/>
@@ -8164,7 +8164,7 @@ Stranica,Tekst
  <orth>našinskih</orth>
  <gramGrp>
  <gram corresp=""#pridjev"" type=""pos""/>
- <gram corresp=""#P_posvojni"" type=""adjectiveType""/>
+ <gram corresp=""#P_odnosni"" type=""adjectiveType""/>
  <gram corresp=""#srednji"" type=""gender""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#genitiv"" type=""case""/>
@@ -8182,7 +8182,7 @@ Stranica,Tekst
  <orth>našinskjeh</orth>
  <gramGrp>
  <gram corresp=""#pridjev"" type=""pos""/>
- <gram corresp=""#P_posvojni"" type=""adjectiveType""/>
+ <gram corresp=""#P_odnosni"" type=""adjectiveType""/>
  <gram corresp=""#zenski"" type=""gender""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#genitiv"" type=""case""/>
@@ -8264,7 +8264,7 @@ Stranica,Tekst
  <orth>našinske</orth>
  <gramGrp>
  <gram corresp=""#pridjev"" type=""pos""/>
- <gram corresp=""#"
+ <gram corresp=""#P_odnos"
 33,"<p>Paragraf 5.</p><p>O neodređenim i upitnim zamjenicama</p><p>Primjer neodređene zamjenice kojigod ili kojigodjer</p><p>Neodređena zamjenica kojigod, kojigodjer sa značenjem neki (alcuno) tvori se
   pridodavanjem god ili godjer odnosnoj zamjenici koji. Deklinira se ovako:</p><p>N <form type=""inflectedForm"" xml:lang=""hr"">
  <orth>kojigod</orth>
@@ -11867,7 +11867,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#prvo"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
@@ -11878,7 +11878,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#prvo"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
@@ -11889,7 +11889,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
@@ -11900,7 +11900,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
@@ -11911,7 +11911,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
@@ -11923,7 +11923,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
@@ -11934,7 +11934,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#prvo"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
@@ -11945,7 +11945,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
@@ -11956,7 +11956,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
@@ -11979,7 +11979,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""imperativ"" type=""mood""/>
+ <gram corresp=""#imperativ"" type=""mood""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -11989,7 +11989,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""imperativ"" type=""mood""/>
+ <gram corresp=""#imperativ"" type=""mood""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -11999,7 +11999,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""imperativ"" type=""mood""/>
+ <gram corresp=""#imperativ"" type=""mood""/>
  <gram corresp=""#prvo"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -12009,7 +12009,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""imperativ"" type=""mood""/>
+ <gram corresp=""#imperativ"" type=""mood""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -12020,7 +12020,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""imperativ"" type=""mood""/>
+ <gram corresp=""#imperativ"" type=""mood""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -12030,7 +12030,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""imperativ"" type=""mood""/>
+ <gram corresp=""#imperativ"" type=""mood""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -12044,7 +12044,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
@@ -12055,7 +12055,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
@@ -12066,7 +12066,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#prvo"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
@@ -12077,7 +12077,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
@@ -12088,7 +12088,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""buduce"" type=""tense""/>
+ <gram corresp=""#buduce"" type=""tense""/>
  <gram corresp=""#G_futur_I"" type=""tenseType""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
@@ -12354,7 +12354,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>
   – essendo, nepromjenjiv je oblik za jedninu i množinu za sva
@@ -12363,7 +12363,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form> 
   ili budući bio – essendo io stato, budući ona bila –
@@ -12404,7 +12404,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>
   gerund, onda je nepromjenjiv, a kad se koristi kao
@@ -13286,7 +13286,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>
   , pjevaju, <form type=""inflectedForm"" xml:lang=""hr"">
@@ -13294,14 +13294,14 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>, varaju, <form type=""inflectedForm"" xml:lang=""hr"">
  <orth>varajući</orth>
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>, ista je tvorba i u
   drugim dvjema konjugacijama: tiču, <form type=""inflectedForm"" xml:lang=""hr"">
@@ -13309,21 +13309,21 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>, oru, <form type=""inflectedForm"" xml:lang=""hr"">
  <orth>orući</orth>
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>, uče, <form type=""inflectedForm"" xml:lang=""hr"">
  <orth>učeći</orth>
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>. Za akcente u gerundu
   vidi pogl. XXIII., paragraf 18.</p><p>Particip</p><p>Preterit i imperfekt <form type=""inflectedForm"" xml:lang=""hr"">
@@ -13428,7 +13428,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form> 
   – havendo havuto je nepromjenjiv i koristi se za sva lica i
@@ -13437,7 +13437,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form>, učiti,
   <form type=""inflectedForm"" xml:lang=""hr"">
@@ -13445,14 +13445,14 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form>. Ako su u infinitivu dva t, oba se odbacuju: ubitti, <form type=""inflectedForm"" xml:lang=""hr"">
  <orth>ubivši</orth>
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form>.</p><p>Poglavlje XI.</p><p>Druga konjugacija sa završetkom na -em,</p><p>kao orem</p><p>Indikativ</p><p>Indikativ prezenta <form type=""inflectedForm"" xml:lang=""hr"">
  <orth>orem</orth>
@@ -14193,7 +14193,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>
   – arando, nepromjenjivo, kao što je već napomenuto kod gerunda
@@ -14264,7 +14264,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form> 
   –
@@ -14832,7 +14832,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_kondicional_II"" type=""tenseType""/>
+ <gram corresp=""#kondicional_II"" type=""tenseType""/>
  <gram corresp=""#prvo"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -14844,7 +14844,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_kondicional_II"" type=""tenseType""/>
+ <gram corresp=""#kondicional_II"" type=""tenseType""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -14855,7 +14855,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_kondicional_II"" type=""tenseType""/>
+ <gram corresp=""#kondicional_II"" type=""tenseType""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -14867,7 +14867,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_kondicional_II"" type=""tenseType""/>
+ <gram corresp=""#kondicional_II"" type=""tenseType""/>
  <gram corresp=""#prvo"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -14878,7 +14878,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_kondicional_II"" type=""tenseType""/>
+ <gram corresp=""#kondicional_II"" type=""tenseType""/>
  <gram corresp=""#drugo"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -14889,7 +14889,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_kondicional_II"" type=""tenseType""/>
+ <gram corresp=""#kondicional_II"" type=""tenseType""/>
  <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#mnozina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
@@ -14981,7 +14981,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>
   – insegnando.</p><p>Particip</p><p>Prezent i imperfekt <form type=""inflectedForm"" xml:lang=""hr"">
@@ -15050,7 +15050,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form>
   je nepromjenjivo, a znači havendo insegnato. Isto značenje ima i budući učio,
@@ -16415,7 +16415,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>
   ili <form type=""inflectedForm"" xml:lang=""hr"">
@@ -16423,7 +16423,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form>
   – volendo.</p><p>Particip</p><p>Prezent i imperfekt <form type=""inflectedForm"" xml:lang=""hr"">
@@ -16570,7 +16570,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form> je nepromjenjiv oblik sa značenjem havendo voluto ili budući hotio.</p>"
 47,"<p>Paragraf 2.</p><p>Konjugacija glagola neću – non voglio</p><p>Glagol neću – non voglio konjugira se kao hoću.</p><p>Indikativ</p><p>Prezent neću – non voglio, nećeš, neće. Mn. nećemo, nećete, neće.</p><p>Imperfekt ne hotijah ili ne htijah – io non voleva itd.</p><p>Aorist ne htjeh ili ne htih itd. – non volli itd.</p><p>Perfekt ne htio sam ili njesam hotio itd. – non ho voluto itd.</p><p>Pluskvamperfekt ne bijah hotio itd. – io non haveva voluto itd.</p><p>Futur ne hotiti ću ili ne htjeću ili neću hotiti – non vorro itd.</p><p>Imperativ</p><p>Prezent ne hotij ili ne htij ti – non voler tu itd.</p><p>Futur ne hotit ćeš itd. – non vorrai tu.</p><p>Optativ</p><p>Prezent o da neću – voglia Dio, che io non voglia itd.</p><p>Preterit imperfekt o da bih ne hotio ili ne htio – o se non volesse itd.</p><p>Aorist o da ne hotih – Dio voglia, che io non habbia voluto itd.</p><p>Perfekt o da njesam hotio ili da jesam ne hotio itd. – Dio voglia, che io non habbia
@@ -17357,7 +17357,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_pomocni"" type=""verbType""/>
- <gram corresp=""#G_sadasnji"" type=""verbialAdverb""/>
+ <gram corresp=""#G_sadasnji"" type=""verbalAdverb""/>
  </gramGrp>
  </form> – potendo</p><p>Particip</p><p>Prezent i imperfekt <form type=""inflectedForm"" xml:lang=""hr"">
  <orth>mogući</orth>
@@ -17453,7 +17453,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form> 
   ili <form type=""inflectedForm"" xml:lang=""hr"">
@@ -17461,7 +17461,7 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form>, nepromjenjivo – havendo potuto.</p><p>Poglavlje XV.</p><p>O nepotpunim glagolima</p><p>Nepotpunim glagolima možemo nazvati one glagole kojima nedostaju prezent i imperfekt, a
   nadomještaju se prezentom i imperfektom drugog glagola s istim značenjem. Npr. vazeti –
@@ -17961,14 +17961,14 @@ Stranica,Tekst
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form> ili budući dvignuo – havendo alzato.</p><p><form type=""inflectedForm"" xml:lang=""hr"">
  <orth>Dvignuvši</orth>
  <gramGrp>
  <gram corresp=""#glagol"" type=""pos""/>
  <gram corresp=""#G_glavni"" type=""verbType""/>
- <gram corresp=""#G_prosli"" type=""verbialAdverb""/>
+ <gram corresp=""#G_prosli"" type=""verbalAdverb""/>
  </gramGrp>
  </form> 
   – havendo alzato je nepromjenjivo, dvignuvši ti, dvignuvši on, dvignuvši mi
@@ -19981,7 +19981,7 @@ Stranica,Tekst
  <gram corresp=""#G_glavni"" type=""verbType""/>
  <gram corresp=""#proslo"" type=""tense""/>
  <gram corresp=""#G_perfekt"" type=""tenseType""/>
- <gram corresp=""#treće"" type=""person""/>
+ <gram corresp=""#trece"" type=""person""/>
  <gram corresp=""#jednina"" type=""number""/>
  <gram corresp=""#aktiv"" type=""voice""/>
  <gram corresp=""#muski"" type=""gender""/>

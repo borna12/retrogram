@@ -637,6 +637,8 @@
      </encodingDesc>
      
       <revisionDesc>
+         <change when="2023-02-20" who="#pbago">završena inačica v20 - ispravak oznaka za terminologiju i paradigme</change>
+         <change when="2022-12-21" who="#pbago">završena inačica v19</change>
          <change when="2022-08-25" who="#mhorvat">završno uređivanje inačice v18</change>
          <change when="2022-08-19" who="#speric">pregledavanje v18</change>
          <change when="2022-07-21" who="#mhorvat">redaktura(v18)</change>
@@ -693,7 +695,7 @@
             Primjer označenog izraza s jednim terminom iz zaglavlja:
             <term corresp="#imenice">imenica</term>
             Primjer označenog izraza s dva termina iz zaglavlja:
-            <term corresp="#imenice #pridjevi">imena</term>
+            <term corresp="#imenica #pridjev">imena</term>
          -->
          <!-- 20.01.2022. PB:
             Prilikom označavanja situacija kao što su "ime posobito ili samostavno", potrebno je sve označiti kao jedan termin.
@@ -704,7 +706,7 @@
          <p>U slovinski jezik nahode se tri vrste <term corresp="#imenica">imena stojećega</term>, to jest <term corresp="#imenica">ime</term> <term corresp="#muski">muško</term>, <term corresp="#imenica">ime</term> <term corresp="#zenski">žensko</term> i <term corresp="#imenica">ime</term> <term corresp="#srednji">ni muško ni žensko</term>: kakoti vinograd <term corresp="#muski">muš[k]o</term> je <term corresp="#imenica">ime</term>, kuća <term corresp="#zenski">žensko</term> je <term corresp="#imenica">ime</term>, a drvo nije ni <term corresp="#srednji">muško ni žensko</term>. I tako rečemo: dobar vinograd, dobra kuća, dobro drvo.</p>
          <p>Al u latinski jezik nijesu nego dvije same vrste <term corresp="#imenica">imena stojećega</term>, to jest <term corresp="#muski">muško</term> <term corresp="#imenica">ime</term> i <term corresp="#zenski">žensko</term>.</p>
          <p>Također oni ne prominjuju isto <term corresp="#imenica">ime</term> kako mi, nego (što je veoma lašnje za naučiti) samo prominjuju <term corresp="#clan">članke</term> koje stavljaju prid <term corresp="#imenica">imenom</term>. I po ovizijeh <term corresp="#clan">člancijeh</term> poznaje se također koje je <term corresp="#imenica">ime</term> <term corresp="#muski">muško</term>, koje li <term corresp="#zenski">žensko</term>, kako se može viditi po ovomu <term corresp="#imenica">imenu</term> <term corresp="#muski">muškomu</term>: vojnik – il soldato, jere:</p>
-         <p>Kad je <term corresp="#jednina">jedini broj></term>, to jest kad od jednoga govorimo:</p>
+         <p>Kad je <term corresp="#jednina">jedini broj</term>, to jest kad od jednoga govorimo:</p>
          <!-- 
             14.03.2022. PB: Ažurirano: pridjevi i glagoli!
             31.10.2021. PB:
@@ -800,11 +802,11 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="sadasnje"/>
+                  <gram type="tense" corresp="#sadasnje"/>
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
-                  <gram type="number" corresp="jednina"/>
-                  <gram type="voice" corresp="aktiv"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
                </gramGrp>
             </form>
             
@@ -813,7 +815,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="infinitive" corresp="G_supin"/>
+                  <gram type="infinitive" corresp="#G_supin"/>
                </gramGrp>
             </form>
          -->
@@ -889,7 +891,7 @@
                   <gram type="nounType" corresp="#I_opca"/>
                   <gram type="gender" corresp="#muski"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="case" corresp="akuzativ"/>
+                  <gram type="case" corresp="#akuzativ"/>
                   <gram type="inflectionType" corresp="#I_a_sklonidba"/>
                   <gram type="animacy" corresp="#I_zivo"/>
                </gramGrp>
@@ -4654,7 +4656,7 @@
                </gramGrp>
             </form>.</p>
          <p>OD <term corresp="#glagol">RIJEČI</term> <term corresp="#aktiv">ČINEĆE</term></p>
-         <p><term corresp="#glagol">Riječ</term> <term corresp="#aktiv">čineća</term> u latinski jezik od četiri je vrsta, jere na četiri načina ima svrhu <term corresp="sadasnje #G_prezent">vrijeme sadašnje</term> <term corresp="#G_infinitiv">načina koji ne svršuje</term>.</p>
+         <p><term corresp="#glagol">Riječ</term> <term corresp="#aktiv">čineća</term> u latinski jezik od četiri je vrsta, jere na četiri načina ima svrhu <term corresp="#sadasnje #G_prezent">vrijeme sadašnje</term> <term corresp="#G_infinitiv">načina koji ne svršuje</term>.</p>
          <p>Prva vrsta svršuje u slova are, u dugo, kakoti insegnare.</p>
          <p>Druga u slova ere, u dugo, kakoti vedere.</p>
          <p>Treća također u slova ere, al u kratko kakoti scrivere.</p>
@@ -5023,7 +5025,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tense" corresp="proslo"/>
+                  <gram type="tense" corresp="#proslo"/>
                   <gram type="tenseType" corresp="#G_pluskvamperfekt"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/> 
@@ -5612,7 +5614,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il 
             <form type="inflectedForm" xml:lang="hr">
@@ -5620,7 +5622,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
-                  <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+                  <gram type="verbalAdverb" corresp="#G_sadasnji"/>
                </gramGrp>
             </form> da já 
             <form type="inflectedForm" xml:lang="hr">
@@ -5708,7 +5710,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da 
             <form type="inflectedForm" xml:lang="hr">
@@ -6011,14 +6013,16 @@
          <p>Kàd já 
             <form type="inflectedForm" xml:lang="hr">
                <orth>uzimam</orth>
-            <gramGrp>
-               <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#G_prezent"/>
-               <gram type="person" corresp="#prvo"/>
-               <gram type="number" corresp="#jednina"/>
-               <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form>
+               <gramGrp>
+                  <gram type="pos" corresp="#glagol"/>
+                  <gram type="verbType" corresp="#G_glavni"/>
+                  <gram type="tense" corresp="#buduce"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
+                  <gram type="person" corresp="#prvo"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
+               </gramGrp>
+            </form>
             i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budem imao</orth>
@@ -6042,7 +6046,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+               </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budeš imao</orth>
                <gramGrp>
@@ -6065,7 +6071,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>bude imao</orth>
                <gramGrp>
@@ -6088,7 +6096,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budemo imali</orth>
                <gramGrp>
@@ -6111,7 +6121,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budete imali</orth>
                <gramGrp>
@@ -6134,7 +6146,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budu imali</orth>
                <gramGrp>
@@ -7076,7 +7090,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da já 
             <form type="inflectedForm" xml:lang="hr">
@@ -7164,7 +7178,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da 
             <form type="inflectedForm" xml:lang="hr">
@@ -7472,14 +7486,16 @@
          <p>Kada já 
             <form type="inflectedForm" xml:lang="hr">
                <orth>uzučim</orth>
-            <gramGrp>
-               <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#G_prezent"/>
-               <gram type="person" corresp="#prvo"/>
-               <gram type="number" corresp="#jednina"/>
-               <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+               <gramGrp>
+                  <gram type="pos" corresp="#glagol"/>
+                  <gram type="verbType" corresp="#G_glavni"/>
+                  <gram type="tense" corresp="#buduce"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
+                  <gram type="person" corresp="#prvo"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
+               </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budem učio</orth>
                <gramGrp>
@@ -7502,7 +7518,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budeš učio</orth>
                <gramGrp>
@@ -7525,7 +7543,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>bude učio</orth>
                <gramGrp>
@@ -7548,7 +7568,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> [i]  kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> [i]  kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budemo učili</orth>
                <gramGrp>
@@ -7571,7 +7593,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budete učili</orth>
                <gramGrp>
@@ -7594,7 +7618,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budu učili</orth>
                <gramGrp>
@@ -8594,7 +8620,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da já 
             <form type="inflectedForm" xml:lang="hr">
@@ -8675,7 +8701,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da 
             <form type="inflectedForm" xml:lang="hr">
@@ -8991,7 +9017,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budem vidio</orth>
                <gramGrp>
@@ -9014,7 +9042,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budeš vidio</orth>
                <gramGrp>
@@ -9037,7 +9067,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>bude vidio</orth>
                <gramGrp>
@@ -9060,7 +9092,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budemo vídili</orth>
                <gramGrp>
@@ -9083,7 +9117,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budete vidíli</orth>
                <gramGrp>
@@ -9106,7 +9142,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budu vidili</orth>
                <gramGrp>
@@ -10033,7 +10071,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da ja 
             <form type="inflectedForm" xml:lang="hr">
@@ -10115,7 +10153,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da já  
             <form type="inflectedForm" xml:lang="hr">
@@ -10418,7 +10456,7 @@
                   <gram type="gender" corresp="#muski"/>
                </gramGrp>
             </form>.</p>
-         <p><term corresp="#G_futur_I #futur_II">vrijeme koje ima doći</term></p>
+         <p><term corresp="#G_futur_I #G_futur_II">vrijeme koje ima doći</term></p>
          <p>Quando io scriuerò, &amp; hauerò scritto, quando tu scriuerai, &amp; hauerai scritto, quando quello scriuera, &amp; hauerà scritto, quando noi scriueremo, &amp; haueremo scritto, quando voi scriuerete, &amp; hauerete scritto, quando quelli scriueranno, &amp; haueranno scritto.</p>
          <p>Kàd já 
             <form type="inflectedForm" xml:lang="hr">
@@ -11471,7 +11509,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da já 
             <form type="inflectedForm" xml:lang="hr">
@@ -11555,7 +11593,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> já il budući da 
             <form type="inflectedForm" xml:lang="hr">
@@ -11852,14 +11890,16 @@
          <p>Kàd já 
             <form type="inflectedForm" xml:lang="hr">
                <orth>uzćutim</orth>
-            <gramGrp>
-               <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#G_prezent"/>
-               <gram type="person" corresp="#prvo"/>
-               <gram type="number" corresp="#jednina"/>
-               <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form>
+               <gramGrp>
+                  <gram type="pos" corresp="#glagol"/>
+                  <gram type="verbType" corresp="#G_glavni"/>
+                  <gram type="tense" corresp="#buduce"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
+                  <gram type="person" corresp="#prvo"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form>
           i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budem ćutio</orth>
@@ -11883,7 +11923,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budeš ćutio</orth>
                <gramGrp>
@@ -11906,7 +11948,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>bude ćutio</orth>
                <gramGrp>
@@ -11929,7 +11973,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budemo ćutili</orth>
                <gramGrp>
@@ -11952,7 +11998,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budete ćutili</orth>
                <gramGrp>
@@ -11975,7 +12023,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> i kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> i kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budu ćutili</orth>
                <gramGrp>
@@ -12913,14 +12963,14 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="verbialAdverb" corresp="#G_prosli"/>
+               <gram type="verbalAdverb" corresp="#G_prosli"/>
             </gramGrp>
          </form> já il <form type="inflectedForm" xml:lang="hr">
             <orth>budući</orth>
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="verbialAdverb" corresp="#G_sadasnji"/>
+               <gram type="verbalAdverb" corresp="#G_sadasnji"/>
             </gramGrp>
          </form> da 
             <form type="inflectedForm" xml:lang="hr">
@@ -13002,7 +13052,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="verbialAdverb" corresp="#G_prosli"/>
+               <gram type="verbalAdverb" corresp="#G_prosli"/>
             </gramGrp>
          </form> já il budući da budem i 
             <form type="inflectedForm" xml:lang="hr">
@@ -13318,14 +13368,16 @@
          <p>Kád já 
             <form type="inflectedForm" xml:lang="hr">
                <orth>uzbudem</orth>
-            <gramGrp>
-               <gram type="pos" corresp="#glagol"/>
-               <gram type="verbType" corresp="#G_pomocni"/>
-               <gram type="tense" corresp="#buduce"/>
-               <gram type="tenseType" corresp="#G_prezent"/>
-               <gram type="person" corresp="#prvo"/>
-               <gram type="number" corresp="#jednina"/>
-               <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> il kad 
+               <gramGrp>
+                  <gram type="pos" corresp="#glagol"/>
+                  <gram type="verbType" corresp="#G_pomocni"/>
+                  <gram type="tense" corresp="#buduce"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
+                  <gram type="person" corresp="#prvo"/>
+                  <gram type="number" corresp="#jednina"/>
+                  <gram type="voice" corresp="#aktiv"/>
+               </gramGrp>
+            </form> il kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budem bio</orth>
                <gramGrp>
@@ -13348,7 +13400,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> il kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> il kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budeš bio</orth>
                <gramGrp>
@@ -13371,7 +13425,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#jednina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> il kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> il kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>bude bio</orth>
                <gramGrp>
@@ -13394,7 +13450,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> il kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> il kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budemo bíli</orth>
                <gramGrp>
@@ -13417,7 +13475,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> il kàd 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> il kàd 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budete bíli</orth>
                <gramGrp>
@@ -13440,7 +13500,9 @@
                   <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/>
-                  <gram type="voice" corresp="#aktiv"/>  </gramGrp> </form> il kad 
+                  <gram type="voice" corresp="#aktiv"/>
+                </gramGrp>
+            </form> il kad 
             <form type="inflectedForm" xml:lang="hr">
                <orth>budu bíli</orth>
                <gramGrp>
