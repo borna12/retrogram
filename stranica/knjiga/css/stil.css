@@ -5,6 +5,8 @@ html, body{height: 100%;margin: 0;padding: 0}
 
     
   }
+
+  form {display: inline-block!important;}
 #stranica{border: 1px solid black;}
 #izbornici{padding-top:10px}
   #myDiv{height: 100%;}

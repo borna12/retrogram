@@ -22824,7 +22824,7 @@
             <gramGrp>
                <gram type="pos" corresp="#glagol"/>
                <gram type="verbType" corresp="#G_glavni"/>
-               <gram type="tenseType" corresp="#kondicional_II"/>
+               <gram type="mood" corresp="#kondicional_II"/>
                <gram type="person" corresp="#prvo"/>
                <gram type="number" corresp="#jednina"/> 
                <gram type="voice" corresp="#aktiv"/>
@@ -22836,7 +22836,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tenseType" corresp="#kondicional_II"/>
+                  <gram type="mood" corresp="#kondicional_II"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#jednina"/> 
                   <gram type="voice" corresp="#aktiv"/>
@@ -22847,7 +22847,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tenseType" corresp="#kondicional_II"/>
+                  <gram type="mood" corresp="#kondicional_II"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#jednina"/> 
                   <gram type="voice" corresp="#aktiv"/>
@@ -22859,7 +22859,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tenseType" corresp="#kondicional_II"/>
+                  <gram type="mood" corresp="#kondicional_II"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#mnozina"/> 
                   <gram type="voice" corresp="#aktiv"/>
@@ -22870,7 +22870,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tenseType" corresp="#kondicional_II"/>
+                  <gram type="mood" corresp="#kondicional_II"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#mnozina"/> 
                   <gram type="voice" corresp="#aktiv"/>
@@ -22881,7 +22881,7 @@
                <gramGrp>
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_glavni"/>
-                  <gram type="tenseType" corresp="#kondicional_II"/>
+                  <gram type="mood" corresp="#kondicional_II"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/> 
                   <gram type="voice" corresp="#aktiv"/>

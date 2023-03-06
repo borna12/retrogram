@@ -5169,7 +5169,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="mood" corresp="#G_prezent"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -5181,7 +5181,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="mood" corresp="#G_prezent"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -5193,7 +5193,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="mood" corresp="#G_prezent"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#jednina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -5206,7 +5206,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="mood" corresp="#G_prezent"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#prvo"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -5218,7 +5218,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="mood" corresp="#G_prezent"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#drugo"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="voice" corresp="#aktiv"/>
@@ -5230,7 +5230,7 @@
                   <gram type="pos" corresp="#glagol"/>
                   <gram type="verbType" corresp="#G_pomocni"/>
                   <gram type="tense" corresp="#buduce"/>
-                  <gram type="mood" corresp="#G_prezent"/>
+                  <gram type="tenseType" corresp="#G_prezent"/>
                   <gram type="person" corresp="#trece"/>
                   <gram type="number" corresp="#mnozina"/>
                   <gram type="voice" corresp="#aktiv"/>
