@@ -188,10 +188,10 @@ See https://github.com/adobe-type-tools/cmap-resources
             <div class="horizontalToolbarSeparator"></div>
 
             <div id="cursorToolButtons" role="radiogroup">
-              <button id="cursorSelectTool" class="secondaryToolbarButton toggled" title="Enable Text Selection Tool" tabindex="60" data-l10n-id="cursor_text_select_tool" role="radio" aria-checked="true">
+              <button id="cursorSelectTool" class="secondaryToolbarButton toggled" title="Enable Text Selection Tool" tabindex="60" data-l10n-id="cursor_text_select_tool" role="radio" aria-checked="false">
                 <span data-l10n-id="cursor_text_select_tool_label">Text Selection Tool</span>
               </button>
-              <button id="cursorHandTool" class="secondaryToolbarButton" title="Enable Hand Tool" tabindex="61" data-l10n-id="cursor_hand_tool" role="radio" aria-checked="false">
+              <button id="cursorHandTool" class="secondaryToolbarButton" title="Enable Hand Tool" tabindex="61" data-l10n-id="cursor_hand_tool" role="radio" aria-checked="true">
                 <span data-l10n-id="cursor_hand_tool_label">Hand Tool</span>
               </button>
             </div>
@@ -522,6 +522,8 @@ document.addEventListener("DOMContentLoaded", () => {
         enablePinchZoom();
     }
 });
+
+
     </script>
 
     <style>

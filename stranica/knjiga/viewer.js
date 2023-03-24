@@ -4496,8 +4496,8 @@ var _grab_to_pan = __webpack_require__(8);
 var _ui_utils = __webpack_require__(1);
 
 const CursorTool = {
-  SELECT: 0,
-  HAND: 1,
+  SELECT: 1,
+  HAND: 0,
   ZOOM: 2
 };
 exports.CursorTool = CursorTool;
