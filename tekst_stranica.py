@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import xlsxwriter
 import os, glob
 
-workbook = xlsxwriter.Workbook('stranica.xlsx')
+workbook = xlsxwriter.Workbook('retrogram_listanje.xlsx')
 
 adresa="/".join(os.getcwd().split(os.sep))
 

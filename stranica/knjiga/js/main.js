@@ -122,3 +122,8 @@ $(document).ready(function () {
   });
 
 });
+
+
+$("#naprijed").click(function(){
+  $("#stranice").click()
+})
