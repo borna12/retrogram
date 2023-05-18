@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 435,
+    "height" : 678
+  }, {
+    "width" : 869,
+    "height" : 1356
+  }, {
+    "width" : 1738,
+    "height" : 2712
+  }, {
+    "width" : 3475,
+    "height" : 5423
+  }, {
+    "width" : 6950,
+    "height" : 10846
+  }, {
+    "width" : 13900,
+    "height" : 21692
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 13900,
+  "@id" : "https://retrogram.jezik.hr/gramatike/appendini/iiif/34",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 21692
+}
