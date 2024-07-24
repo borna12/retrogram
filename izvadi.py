@@ -3,7 +3,7 @@ import xlsxwriter
 import os, glob
 
 
-workbook = xlsxwriter.Workbook('retrogram.xlsx')
+workbook = xlsxwriter.Workbook('retrogram-2.xlsx')
 worksheet = workbook.add_worksheet()
 worksheet.write('A1', 'Orth')
 worksheet.write('B1', 'Pos')
@@ -26,6 +26,8 @@ worksheet.write('R1', 'mood')
 worksheet.write('S1', 'infinitive')
 worksheet.write('T1', 'verbalAdverb')
 worksheet.write('U1', 'Fajl')
+worksheet.write('V1', 'Stranica')
+worksheet.write('W1', 'Brojka')
 
 
 adresa="/".join(os.getcwd().split(os.sep))
@@ -38,8 +40,21 @@ for fajl in glob.glob(os.path .join(adresa, '*.xml')):
     # 'xml' is the parser used. For html files, which BeautifulSoup is typically used for, it would be 'html.parser'.
     soup = BeautifulSoup(file, 'xml')
     forms = soup.findAll("form", {"type" : "inflectedForm"})
+    pb_tags = soup.find_all('pb')
+    pb_positions = {pb['n']: index + 1 for index, pb in enumerate(pb_tags)}
+
+    last_pb_n = None
+    brojcek=0
+
     for form in forms:
         orth=form.find('orth')
+        preceding_pb = form.find_previous('pb')
+        if preceding_pb:
+            pb_n = preceding_pb.get('n')
+            pb_position = pb_positions[pb_n]
+
+        print(orth, preceding_pb,pb_position)
+      
         try:
             pos=form.find("gram", {"type" : "pos"}) #pos['corresp']
             pos=pos['corresp']
@@ -155,6 +170,8 @@ for fajl in glob.glob(os.path .join(adresa, '*.xml')):
         worksheet.write('R'+str(i),mood)
         worksheet.write('S'+str(i),infinitive)
         worksheet.write('T'+str(i),verbalAdverb)
+        worksheet.write('V'+str(i),preceding_pb.get('n'))
+        worksheet.write('W'+str(i),str(pb_position+1))
         if "appendini" in fajl.split('\\')[-1]:
             worksheet.write('U'+str(i),"Francesco M. Appendini, Grammatica della lingua Illirica (1808.)")
         elif "della_bella" in fajl.split('\\')[-1]:

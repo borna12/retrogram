@@ -13,6 +13,28 @@ const csvData = Papa.parse(vol1, {
   }
 });
 function pop_up(e){
+  gramatika=$(e).parent().attr("data-Fajl")
+  link="#"
+  if(gramatika=="Ardelio Della Bella, Istruzioni grammaticali della lingua illirica (1728.)")
+  link="https://retrogram.jezik.hr/gramatike/della-bella/?stranica=%7B%22pages%22%3A%5B"+$(e).parent().attr("data-brojka")+"%5D%2C%22view%22%3A%22%22%7D"
+  else if(gramatika=="Marijan Lanosović, Uvod u latinsko riči slaganje s nikima nimačkog jezika biližkama za korist slovinskih mladića složen (1776.)")
+  link="https://retrogram.jezik.hr/gramatike/lanosovic/?stranica=%7B%22pages%22%3A%5B"+$(e).parent().attr("data-brojka")+"%5D%2C%22view%22%3A%22%22%7D"
+  else if(gramatika=="Bartol Kašić, Institutionum linguae illyricae libri duo (1604.)"){
+  brojevi=parseInt($(e).parent().attr("data-brojka"))-1
+  link="https://retrogram.jezik.hr/gramatike/kasic/?stranica=%7B%22pages%22%3A%5B"+brojevi+"%5D%2C%22view%22%3A%22%22%7D"}
+  else if(gramatika=="Francesco M. Appendini, Grammatica della lingua Illirica (1808.)")
+  link="https://retrogram.jezik.hr/gramatike/appendini/?stranica=%7B%22pages%22%3A%5B"+$(e).parent().attr("data-brojka")+"%5D%2C%22view%22%3A%22%22%7D"
+  else if(gramatika=="Ignacije Szentmártony, Eunleintung zur kroatischen Sprachlehre für Deutsche (1783.)"){
+    brojevi=parseInt($(e).parent().attr("data-brojka"))-1
+  link="https://retrogram.jezik.hr/gramatike/szentamantory/?stranica=%7B%22pages%22%3A%5B"+brojevi+"%5D%2C%22view%22%3A%22%22%7D"
+}
+  else if(gramatika=="Jakov Mikalja, Gramatika talijanska ukratko ili kratak nauk za naučiti latinski jezik (1649.)")
+  link="https://retrogram.jezik.hr/gramatike/mikalja/?stranica=%7B%22pages%22%3A%5B"+$(e).parent().attr("data-brojka")+"%5D%2C%22view%22%3A%22%22%7D"
+  else if(gramatika=="Josip Voltić, Grammatica illirica (1803.)")
+  link="https://retrogram.jezik.hr/gramatike/voltic/?stranica=%7B%22pages%22%3A%5B"+$(e).parent().attr("data-brojka")+"%5D%2C%22view%22%3A%22%22%7D"  
+  else if(gramatika=="Blaž Tadijanović, Svašta po malo iliti kratko složenje imena, riči u ilirski i njemački jezik (1761.)")
+  link="https://retrogram.jezik.hr/gramatike/tadijanovic/?stranica=%7B%22pages%22%3A%5B"+$(e).parent().attr("data-brojka")+"%5D%2C%22view%22%3A%22%22%7D"
+
 
   Swal.fire({
     title: $(e).parent().attr("data-Orth"),
@@ -36,7 +58,8 @@ function pop_up(e){
     "<p class='infinitive podebljaj'>Infinitiv: <span class='vrijednost'>"+$(e).parent().attr("data-infinitive").replace("#G_infinitiv","infinitiv").replace("#G_supin","supin")+"</span></p>"+
     "<p class='verbalAdverb podebljaj'>Glagolski prilog: <span class='vrijednost'>"+$(e).parent().attr("data-verbalAdverb").replace("#G_prosli","prošli").replace("#G_sadasnji","sadašnji")+"</span></p>"+
     "<p class='voice podebljaj'>Glagolsko stanje: <span class='vrijednost'>"+$(e).parent().attr("data-voice").replace("#","").replace("mnozina","množina")+"</span></p>"+
-    "<p class='Fajl podebljaj'>Gramatika: <span class='vrijednost'>"+$(e).parent().attr("data-Fajl")+"</span></p>",
+    "<p class='Fajl podebljaj'>Gramatika: <span class='vrijednost'>"+$(e).parent().attr("data-Fajl")+"</span></p>"+
+    "<p class='Stranica podebljaj'>Stranica: <a href="+link+" target='blank'>"+$(e).parent().attr("data-stranica")+"</a></p>",
     showCloseButton: true,
     focusConfirm: false,
     confirmButtonText: 'zatvori',
@@ -98,7 +121,7 @@ function trazilica() {
     lista_svega = [obj.Orth, obj.Pos, obj.VerbType, obj.Participle, obj.Gender, obj.PronounType, obj.Number, obj.Case, obj.inflectionType, obj.animacy, obj.tense,obj.person, obj.adjectiveType, obj.numeralType, obj.tenseType, obj.voice, obj.nounType, obj.mood, obj.infinitive, obj.verbalAdverb, obj.Fajl]
     lista_svega = lista_svega.filter(function (e) { return e === 0 || e });
     if (checker(lista_svega, atributi)) {
-      resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-tense='"+obj.tense+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-mood='"+obj.mood+"' data-infinitive='"+obj.infinitive+"' data-verbalAdverb='"+obj.verbalAdverb+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl.replace(/<em>/g, "").replace(/<\/em>/g, "")+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
+      resultList.innerHTML += "<li data-Orth='"+obj.Orth+"' data-Stranica='"+obj.Stranica+"' data-Brojka='"+obj.Brojka+"' data-Pos='"+obj.Pos+"' data-VerbType='"+obj.VerbType+"' data-Participle='"+obj.Participle+"' data-Gender='"+obj.Gender+"' data-PronounType='"+obj.PronounType+"' data-Number='"+obj.Number+"' data-Case='"+obj.Case+"' data-tense='"+obj.tense+"' data-inflectionType='"+obj.inflectionType+"' data-animacy='"+obj.animacy+"' data-tense='"+obj.tense+"' data-person='"+obj.person+"' data-adjectiveType='"+obj.adjectiveType+"' data-numeralType='"+obj.numeralType+"' data-tenseType='"+obj.tenseType+"' data-voice='"+obj.voice+"' data-nounType='"+obj.nounType+"' data-mood='"+obj.mood+"' data-infinitive='"+obj.infinitive+"' data-verbalAdverb='"+obj.verbalAdverb+"' data-Fajl='"+obj.Fajl+"'>" + obj.Orth + "<button class='button is-link has-tooltip-multiline' data-tooltip='"+obj.Fajl.replace(/<em>/g, "").replace(/<\/em>/g, "")+"' onclick='pop_up(this)'><i class='fa fa-info'></i></button></li>"
       brojka++
     }
     lastDisplayedPost = sakri;
